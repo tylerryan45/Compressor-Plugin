@@ -9,3 +9,90 @@
 */
 
 #include "CompressorProcessor.h"
+#include "JuceHeader.h"
+
+void Compressor::prepareToPlay(float Fs, float threshold, float ratio, float attackTime, float releaseTime, float makeUpGain){
+    this->Fs = Fs;
+    this->threshold = threshold;
+    this->ratio = ratio;
+    this->attackTime = attackTime;
+    alphaA = exp(-log(9)/(Fs * attackTime));
+    this->releaseTime = releaseTime;
+    alphaR = exp(-log(9)/(Fs * releaseTime));
+    this->makeUpgain = makeUpGain;
+    gainSmoothPrev = 0;
+}
+
+void Compressor::setThreshold(float threshold){
+    this->threshold = threshold;
+}
+
+void Compressor::setRatio(float ratio){
+    this->ratio = ratio;
+}
+
+void Compressor::setAttackTime(float attackTime){
+    this->attackTime = attackTime;
+    alphaA = exp(-log(9)/(Fs * attackTime));
+}
+
+void Compressor::setReleaseTime(float releaseTime){
+    this->releaseTime = releaseTime;
+    alphaR = exp(-log(9)/(Fs * releaseTime));
+}
+
+void Compressor::setMakeUpgain(float makeUpGain) {
+    this->makeUpgain = makeUpGain;
+}
+
+void Compressor::processBuffer(float *buffer, int c, int N){
+    for (int n = 0 ; n < N ; ++n) {
+        buffer[n] = processSample(buffer[n]);
+    }
+}
+
+float Compressor::detectGainChange(float x) {
+    
+    // Turn the input into a uni-polar sample on the dB scale
+    float x_dB = 20*log10(abs(x));
+    
+    float gainSC;
+    // Perform downward compression on appropriate sample
+    if (x_dB > threshold) {
+        gainSC = threshold + (x_dB - threshold)/ratio;
+    } else {
+        gainSC = x_dB;
+    }
+    
+    float gainChange_dB = gainSC - x_dB;
+    
+    // smooth the gain change
+    float gainSmooth;
+    if (gainChange_dB < gainSmoothPrev) {
+        // attack
+        gainSmooth = -sqrt(((1-alphaA)*pow(gainChange_dB,2.f) + (alphaA*pow(gainSmoothPrev,2.f))));
+    } else {
+        // release
+        gainSmooth = -sqrt(((1-alphaR)*pow(gainChange_dB,2.f) + (alphaR*pow(gainSmoothPrev,2.f))));
+    }
+    
+    // Convert to linear amplitude scalar
+    float lin_A = pow(10.f, gainSmooth/20);
+    
+    // Cache gainSmooth for next sample
+    gainSmoothPrev = gainSmooth;
+    
+    return lin_A;
+}
+
+float Compressor::processSample(float x){
+    
+    // Find the linear amplitude scalar for the given sample
+    float lin_A = detectGainChange(x);
+    
+    //convert make up gain to linear amplitude
+    float lin_MUG = pow(10.f, makeUpgain/20);
+    
+    // Apply the linear amplitude scalar and make up gain to the given sample
+    return lin_A * lin_MUG * x;
+}

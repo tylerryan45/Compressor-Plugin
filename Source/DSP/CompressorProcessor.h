@@ -9,3 +9,31 @@
 */
 
 #pragma once
+
+class Compressor {
+    public:
+    
+    void setThreshold(float threshold);
+    void setRatio(float ratio);
+    void setAttackTime(float attackTime);
+    void setReleaseTime(float releaseTime);
+    void setMakeUpgain(float makeUpGain);
+    void prepareToPlay(float Fs, float threshold, float ratio, float attackTime, float releaseTime, float makeUpGain);
+    void processBuffer(float* buffer, int c, int N);
+    float processSample(float x);
+    float detectGainChange(float x);
+    
+    
+    private:
+    
+    float Fs = 44100;
+    float threshold = -20.f; //dBFS
+    float ratio = 20.f;
+    float attackTime = 0.1; //seconds
+    float alphaA = 0.f;
+    float releaseTime = 0.1; //seconds
+    float alphaR = 0.f;
+    float makeUpgain = 0.f;
+    float gainSmoothPrev = 0;
+    
+};

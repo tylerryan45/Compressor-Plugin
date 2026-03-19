@@ -9,6 +9,7 @@
 #pragma once
 
 #include <JuceHeader.h>
+#include "./DSP/CompressorProcessor.h"
 
 //==============================================================================
 /**
@@ -54,6 +55,8 @@ public:
     void setStateInformation (const void* data, int sizeInBytes) override;
 
 private:
+    
+    Compressor comp = Compressor();
     //==============================================================================
     JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (CompressorPluginAudioProcessor)
 };
