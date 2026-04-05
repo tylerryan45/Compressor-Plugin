@@ -93,11 +93,11 @@ void CompressorPluginAudioProcessor::changeProgramName (int index, const juce::S
 //==============================================================================
 void CompressorPluginAudioProcessor::prepareToPlay (double sampleRate, int samplesPerBlock)
 {
-    float threshold = -12.f;
-    float ratio = 4.f;
+    float threshold = -60.f;
+    float ratio = 100.f;
     float attackTime = 0.1;
-    float releaseTime = 0.1;
-    float makeUpGain = 3.f;
+    float releaseTime = 0.5;
+    float makeUpGain = 0;
     
     comp.prepareToPlay(sampleRate, threshold, ratio, attackTime, releaseTime, makeUpGain);
 }
