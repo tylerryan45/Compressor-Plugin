@@ -20,8 +20,8 @@ class Compressor {
     void setMakeUpgain(float makeUpGain);
     void prepareToPlay(float Fs, float threshold, float ratio, float attackTime, float releaseTime, float makeUpGain);
     void processBuffer(float* buffer, int c, int N);
-    float processSample(float x);
-    float detectGainChange(float x);
+    float processSample(float x, int c);
+    float detectGainChange(float x, int c);
     
     
     private:
@@ -34,6 +34,6 @@ class Compressor {
     float releaseTime = 0.1; //seconds
     float alphaR = 0.f;
     float makeUpgain = 0.f;
-    float gainSmoothPrev = 0;
+    float gainSmoothPrev[2] = {0};
     
 };
