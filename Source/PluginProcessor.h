@@ -56,11 +56,12 @@ public:
 
     juce::AudioProcessorValueTreeState aptvs;
     
+    Compressor comp = Compressor();
+    
 private:
     
     juce::AudioProcessorValueTreeState::ParameterLayout createParameters();
     
-    Compressor comp = Compressor();
     //==============================================================================
     JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (CompressorPluginAudioProcessor)
 };

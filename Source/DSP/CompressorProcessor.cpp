@@ -22,27 +22,14 @@ void Compressor::prepareToPlay(float Fs, std::atomic<float>* threshold, std::ato
     this->makeUpGain = makeUpGain;
 }
 
-void Compressor::setThreshold(std::atomic<float>* threshold){
-    this->threshold = threshold;
-}
-
-void Compressor::setRatio(std::atomic<float>* ratio){
-    this->ratio = ratio;
-}
-
-void Compressor::setAttackTime(std::atomic<float>* attackTime){
-    this->attackTime = attackTime;
+void Compressor::updateAlphaA(){
     alphaA = exp(-log(9)/(Fs * attackTime->load()));
 }
 
-void Compressor::setReleaseTime(std::atomic<float>* releaseTime){
-    this->releaseTime = releaseTime;
+void Compressor::updateAlphaR(){
     alphaR = exp(-log(9)/(Fs * releaseTime->load()));
 }
 
-void Compressor::setMakeUpgain(std::atomic<float>* makeUpGain) {
-    this->makeUpGain = makeUpGain;
-}
 
 void Compressor::processBuffer(float *buffer, int c, int N){
     for (int n = 0 ; n < N ; ++n) {

@@ -15,11 +15,8 @@
 class Compressor {
     public:
     
-    void setThreshold(std::atomic<float>* threshold);
-    void setRatio(std::atomic<float>* ratio);
-    void setAttackTime(std::atomic<float>* attackTime);
-    void setReleaseTime(std::atomic<float>* releaseTime);
-    void setMakeUpgain(std::atomic<float>* makeUpGain);
+    void updateAlphaA();
+    void updateAlphaR();
     void prepareToPlay(float Fs, std::atomic<float>* threshold, std::atomic<float>* ratio, std::atomic<float>* attackTime, std::atomic<float>* releaseTime, std::atomic<float>* makeUpGain);
     void processBuffer(float* buffer, int c, int N);
     float processSample(float x, int c);

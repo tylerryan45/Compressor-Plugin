@@ -33,6 +33,7 @@ CompressorPluginAudioProcessorEditor::CompressorPluginAudioProcessorEditor (Comp
     
     attackTimeSlider.setSliderStyle(juce::Slider::SliderStyle::RotaryHorizontalVerticalDrag);
     attackTimeSlider.setTextBoxStyle(juce::Slider::TextBoxBelow,true,50,25);
+    attackTimeSlider.onValueChange = [this] () { audioProcessor.comp.updateAlphaA(); };
     attackTimeSliderLabel.setText(audioProcessor.aptvs.getParameter("ATTACK")->getName(6),juce::dontSendNotification);
     attackTimeSliderLabel.setJustificationType(juce::Justification::centredTop);
     attackTimeSliderLabel.attachToComponent(&attackTimeSlider, false);
@@ -42,6 +43,7 @@ CompressorPluginAudioProcessorEditor::CompressorPluginAudioProcessorEditor (Comp
     
     releaseTimeSlider.setSliderStyle(juce::Slider::SliderStyle::RotaryHorizontalVerticalDrag);
     releaseTimeSlider.setTextBoxStyle(juce::Slider::TextBoxAbove,true,50,25);
+    releaseTimeSlider.onValueChange = [this] () {audioProcessor.comp.updateAlphaR(); };
     releaseTimeSliderLabel.setText(audioProcessor.aptvs.getParameter("RELEASE")->getName(7),juce::dontSendNotification);
     releaseTimeSliderLabel.setJustificationType(juce::Justification::centredTop);
     releaseTimeSliderLabel.attachToComponent(&releaseTimeSlider, false);
