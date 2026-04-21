@@ -10,15 +10,17 @@
 
 #pragma once
 
+#include<string>
+
 class Compressor {
     public:
     
-    void setThreshold(float threshold);
-    void setRatio(float ratio);
-    void setAttackTime(float attackTime);
-    void setReleaseTime(float releaseTime);
-    void setMakeUpgain(float makeUpGain);
-    void prepareToPlay(float Fs, float threshold, float ratio, float attackTime, float releaseTime, float makeUpGain);
+    void setThreshold(std::atomic<float>* threshold);
+    void setRatio(std::atomic<float>* ratio);
+    void setAttackTime(std::atomic<float>* attackTime);
+    void setReleaseTime(std::atomic<float>* releaseTime);
+    void setMakeUpgain(std::atomic<float>* makeUpGain);
+    void prepareToPlay(float Fs, std::atomic<float>* threshold, std::atomic<float>* ratio, std::atomic<float>* attackTime, std::atomic<float>* releaseTime, std::atomic<float>* makeUpGain);
     void processBuffer(float* buffer, int c, int N);
     float processSample(float x, int c);
     float detectGainChange(float x, int c);
@@ -26,14 +28,14 @@ class Compressor {
     
     private:
     
-    float Fs = 44100;
-    float threshold = -20.f; //dBFS
-    float ratio = 20.f;
-    float attackTime = 0.1; //seconds
+    float Fs;
+    std::atomic<float>* threshold; //dBFS
+    std::atomic<float>* ratio;
+    std::atomic<float>* attackTime; //seconds
     float alphaA = 0.f;
-    float releaseTime = 0.1; //seconds
+    std::atomic<float>* releaseTime; //seconds
     float alphaR = 0.f;
-    float makeUpgain = 0.f;
+    std::atomic<float>* makeUpGain;
     float gainSmoothPrev[2] = {0};
     
 };

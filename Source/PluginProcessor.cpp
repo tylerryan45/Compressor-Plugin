@@ -19,7 +19,7 @@ CompressorPluginAudioProcessor::CompressorPluginAudioProcessor()
                       #endif
                        .withOutput ("Output", juce::AudioChannelSet::stereo(), true)
                      #endif
-                       )
+                       ), aptvs (*this,nullptr,"Parameters",createParameters())
 #endif
 {
 }
@@ -93,11 +93,11 @@ void CompressorPluginAudioProcessor::changeProgramName (int index, const juce::S
 //==============================================================================
 void CompressorPluginAudioProcessor::prepareToPlay (double sampleRate, int samplesPerBlock)
 {
-    float threshold = -60.f;
-    float ratio = 100.f;
-    float attackTime = 0.1;
-    float releaseTime = 0.5;
-    float makeUpGain = 0;
+    std::atomic<float>* threshold = aptvs.getRawParameterValue("THRESHOLD");
+    std::atomic<float>* ratio = aptvs.getRawParameterValue("RATIO");
+    std::atomic<float>* attackTime = aptvs.getRawParameterValue("ATTACK");
+    std::atomic<float>* releaseTime = aptvs.getRawParameterValue("RELEASE");
+    std::atomic<float>* makeUpGain = aptvs.getRawParameterValue("GAIN");
     
     comp.prepareToPlay(sampleRate, threshold, ratio, attackTime, releaseTime, makeUpGain);
 }
@@ -188,4 +188,17 @@ void CompressorPluginAudioProcessor::setStateInformation (const void* data, int 
 juce::AudioProcessor* JUCE_CALLTYPE createPluginFilter()
 {
     return new CompressorPluginAudioProcessor();
+}
+
+juce::AudioProcessorValueTreeState::ParameterLayout CompressorPluginAudioProcessor::createParameters()
+{
+    std::vector<std::unique_ptr<juce::RangedAudioParameter>> params;
+    
+    params.push_back (std::make_unique<juce::AudioParameterFloat>("THRESHOLD","Threshold",-60.0f,0.0f,0.0f));
+    params.push_back (std::make_unique<juce::AudioParameterFloat>("RATIO","Ratio",1.0f,20.0f,1.0f));
+    params.push_back (std::make_unique<juce::AudioParameterFloat>("ATTACK","Attack",0.0f,3.0f,0.0f));
+    params.push_back (std::make_unique<juce::AudioParameterFloat>("RELEASE","Release",0.0f,10.0f,0.0f));
+    params.push_back (std::make_unique<juce::AudioParameterFloat>("GAIN","Gain",0.0f,30.0f,0.0f));
+    
+    return { params.begin(), params.end() };
 }

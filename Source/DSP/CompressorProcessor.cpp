@@ -11,37 +11,37 @@
 #include "CompressorProcessor.h"
 #include "JuceHeader.h"
 
-void Compressor::prepareToPlay(float Fs, float threshold, float ratio, float attackTime, float releaseTime, float makeUpGain){
+void Compressor::prepareToPlay(float Fs, std::atomic<float>* threshold, std::atomic<float>* ratio, std::atomic<float>* attackTime, std::atomic<float>* releaseTime, std::atomic<float>* makeUpGain){
     this->Fs = Fs;
     this->threshold = threshold;
     this->ratio = ratio;
     this->attackTime = attackTime;
-    alphaA = exp(-log(9)/(Fs * attackTime));
+    alphaA = exp(-log(9)/(Fs * attackTime->load()));
     this->releaseTime = releaseTime;
-    alphaR = exp(-log(9)/(Fs * releaseTime));
-    this->makeUpgain = makeUpGain;
+    alphaR = exp(-log(9)/(Fs * releaseTime->load()));
+    this->makeUpGain = makeUpGain;
 }
 
-void Compressor::setThreshold(float threshold){
+void Compressor::setThreshold(std::atomic<float>* threshold){
     this->threshold = threshold;
 }
 
-void Compressor::setRatio(float ratio){
+void Compressor::setRatio(std::atomic<float>* ratio){
     this->ratio = ratio;
 }
 
-void Compressor::setAttackTime(float attackTime){
+void Compressor::setAttackTime(std::atomic<float>* attackTime){
     this->attackTime = attackTime;
-    alphaA = exp(-log(9)/(Fs * attackTime));
+    alphaA = exp(-log(9)/(Fs * attackTime->load()));
 }
 
-void Compressor::setReleaseTime(float releaseTime){
+void Compressor::setReleaseTime(std::atomic<float>* releaseTime){
     this->releaseTime = releaseTime;
-    alphaR = exp(-log(9)/(Fs * releaseTime));
+    alphaR = exp(-log(9)/(Fs * releaseTime->load()));
 }
 
-void Compressor::setMakeUpgain(float makeUpGain) {
-    this->makeUpgain = makeUpGain;
+void Compressor::setMakeUpgain(std::atomic<float>* makeUpGain) {
+    this->makeUpGain = makeUpGain;
 }
 
 void Compressor::processBuffer(float *buffer, int c, int N){
@@ -51,6 +51,8 @@ void Compressor::processBuffer(float *buffer, int c, int N){
 }
 
 float Compressor::detectGainChange(float x, int c) {
+    float thresh = threshold->load();
+    float rat = ratio->load();
     
     // Turn the input into a uni-polar sample on the dB scale
     float x_dB;
@@ -63,8 +65,8 @@ float Compressor::detectGainChange(float x, int c) {
     
     float gainSC;
     // Perform downward compression on appropriate sample
-    if (x_dB > threshold) {
-        gainSC = threshold + (x_dB - threshold)/ratio;
+    if (x_dB > thresh) {
+        gainSC = thresh + (x_dB - thresh)/rat;
     } else {
         gainSC = x_dB;
     }
@@ -96,7 +98,7 @@ float Compressor::processSample(float x, int c){
     float lin_A = detectGainChange(x,c);
     
     //convert make up gain to linear amplitude
-    float lin_MUG = pow(10.f, makeUpgain/20);
+    float lin_MUG = pow(10.f, makeUpGain->load()/20);
     
     // Apply the linear amplitude scalar and make up gain to the given sample
     return lin_A * lin_MUG * x;
