@@ -4,6 +4,2041 @@
               addUsingNamespaceToJuceHeader="0" jucerFormatVersion="1">
   <MAINGROUP id="rAV0b0" name="CompressorPlugin">
     <GROUP id="{EF720FF0-3926-A369-C1DE-FB7AE4409A75}" name="Source">
+      <GROUP id="{9693373E-1B9D-6D63-3499-9BB54F7368F5}" name="Assets">
+        <GROUP id="{480D5808-107F-1B44-01BD-DFF5435314B4}" name="Animations">
+          <GROUP id="{1E0974EC-CCF7-39BD-2B07-0E6DD017A0ED}" name="OneShots">
+            <GROUP id="{D84320B5-C6B4-FF35-936A-D1CD993B2C32}" name="Knob_big">
+              <FILE id="dWZtYe" name="Knob_big__0000.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0000.png"/>
+              <FILE id="UmBXxM" name="Knob_big__0001.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0001.png"/>
+              <FILE id="hadNEr" name="Knob_big__0002.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0002.png"/>
+              <FILE id="EijgXN" name="Knob_big__0003.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0003.png"/>
+              <FILE id="SzW1O8" name="Knob_big__0004.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0004.png"/>
+              <FILE id="P6JM3n" name="Knob_big__0005.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0005.png"/>
+              <FILE id="tPrL2Y" name="Knob_big__0006.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0006.png"/>
+              <FILE id="wKZQMw" name="Knob_big__0007.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0007.png"/>
+              <FILE id="U82XLO" name="Knob_big__0008.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0008.png"/>
+              <FILE id="hDA6vK" name="Knob_big__0009.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0009.png"/>
+              <FILE id="PktSSt" name="Knob_big__0010.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0010.png"/>
+              <FILE id="RP1Eou" name="Knob_big__0011.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0011.png"/>
+              <FILE id="DuJfIO" name="Knob_big__0012.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0012.png"/>
+              <FILE id="ConrGZ" name="Knob_big__0013.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0013.png"/>
+              <FILE id="ejCWzR" name="Knob_big__0014.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0014.png"/>
+              <FILE id="h9RNK0" name="Knob_big__0015.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0015.png"/>
+              <FILE id="UmiJbq" name="Knob_big__0016.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0016.png"/>
+              <FILE id="rjhfgf" name="Knob_big__0017.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0017.png"/>
+              <FILE id="qe6VlH" name="Knob_big__0018.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0018.png"/>
+              <FILE id="BwLSUq" name="Knob_big__0019.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0019.png"/>
+              <FILE id="xxEHUL" name="Knob_big__0020.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0020.png"/>
+              <FILE id="kAMAuS" name="Knob_big__0021.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0021.png"/>
+              <FILE id="TVilul" name="Knob_big__0022.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0022.png"/>
+              <FILE id="X8iNkv" name="Knob_big__0023.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0023.png"/>
+              <FILE id="Y4bjKp" name="Knob_big__0024.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0024.png"/>
+              <FILE id="y72X2R" name="Knob_big__0025.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0025.png"/>
+              <FILE id="pc5Tg7" name="Knob_big__0026.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0026.png"/>
+              <FILE id="ycS2Ii" name="Knob_big__0027.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0027.png"/>
+              <FILE id="DIvXKz" name="Knob_big__0028.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0028.png"/>
+              <FILE id="PnmvC0" name="Knob_big__0029.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0029.png"/>
+              <FILE id="cRNJwS" name="Knob_big__0030.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0030.png"/>
+              <FILE id="TcVTSU" name="Knob_big__0031.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0031.png"/>
+              <FILE id="VDVqc5" name="Knob_big__0032.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0032.png"/>
+              <FILE id="lt8tia" name="Knob_big__0033.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0033.png"/>
+              <FILE id="Bt00Ja" name="Knob_big__0034.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0034.png"/>
+              <FILE id="bmtWVz" name="Knob_big__0035.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0035.png"/>
+              <FILE id="eQbPdT" name="Knob_big__0036.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0036.png"/>
+              <FILE id="GPXR8g" name="Knob_big__0037.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0037.png"/>
+              <FILE id="TeyKpl" name="Knob_big__0038.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0038.png"/>
+              <FILE id="YqXBLk" name="Knob_big__0039.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0039.png"/>
+              <FILE id="Fbi1AG" name="Knob_big__0040.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0040.png"/>
+              <FILE id="nkTuaG" name="Knob_big__0041.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0041.png"/>
+              <FILE id="Nhv0DV" name="Knob_big__0042.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0042.png"/>
+              <FILE id="jLIGb4" name="Knob_big__0043.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0043.png"/>
+              <FILE id="gTuUsL" name="Knob_big__0044.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0044.png"/>
+              <FILE id="DSwKLj" name="Knob_big__0045.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0045.png"/>
+              <FILE id="HCe9ZF" name="Knob_big__0046.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0046.png"/>
+              <FILE id="YaADXn" name="Knob_big__0047.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0047.png"/>
+              <FILE id="U8G2D0" name="Knob_big__0048.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0048.png"/>
+              <FILE id="HNrtxj" name="Knob_big__0049.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0049.png"/>
+              <FILE id="QyasTN" name="Knob_big__0050.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0050.png"/>
+              <FILE id="vLpz4r" name="Knob_big__0051.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0051.png"/>
+              <FILE id="ZZnlnt" name="Knob_big__0052.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0052.png"/>
+              <FILE id="kAhIcw" name="Knob_big__0053.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0053.png"/>
+              <FILE id="O7A50Y" name="Knob_big__0054.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0054.png"/>
+              <FILE id="jPF41o" name="Knob_big__0055.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0055.png"/>
+              <FILE id="OBUtjX" name="Knob_big__0056.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0056.png"/>
+              <FILE id="dwyUFd" name="Knob_big__0057.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0057.png"/>
+              <FILE id="QSY4qF" name="Knob_big__0058.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0058.png"/>
+              <FILE id="yag0YP" name="Knob_big__0059.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0059.png"/>
+              <FILE id="QZXDwg" name="Knob_big__0060.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0060.png"/>
+              <FILE id="h52NcV" name="Knob_big__0061.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0061.png"/>
+              <FILE id="imezjl" name="Knob_big__0062.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0062.png"/>
+              <FILE id="tkGeQt" name="Knob_big__0063.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0063.png"/>
+              <FILE id="fXS3Do" name="Knob_big__0064.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0064.png"/>
+              <FILE id="OLFwoy" name="Knob_big__0065.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0065.png"/>
+              <FILE id="OgVKX5" name="Knob_big__0066.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0066.png"/>
+              <FILE id="W3KpH8" name="Knob_big__0067.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0067.png"/>
+              <FILE id="k2ChBC" name="Knob_big__0068.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0068.png"/>
+              <FILE id="XRrCm5" name="Knob_big__0069.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0069.png"/>
+              <FILE id="mBiyUW" name="Knob_big__0070.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0070.png"/>
+              <FILE id="Uhok85" name="Knob_big__0071.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0071.png"/>
+              <FILE id="VKmABf" name="Knob_big__0072.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0072.png"/>
+              <FILE id="y4Jjg0" name="Knob_big__0073.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0073.png"/>
+              <FILE id="n8F1Xh" name="Knob_big__0074.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0074.png"/>
+              <FILE id="GxjZ66" name="Knob_big__0075.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0075.png"/>
+              <FILE id="LT2N8P" name="Knob_big__0076.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0076.png"/>
+              <FILE id="D34klq" name="Knob_big__0077.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0077.png"/>
+              <FILE id="MEPEHj" name="Knob_big__0078.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0078.png"/>
+              <FILE id="YkqmJM" name="Knob_big__0079.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0079.png"/>
+              <FILE id="bXPr7I" name="Knob_big__0080.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0080.png"/>
+              <FILE id="gsxJDn" name="Knob_big__0081.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0081.png"/>
+              <FILE id="wpnTaj" name="Knob_big__0082.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0082.png"/>
+              <FILE id="jCPJPf" name="Knob_big__0083.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0083.png"/>
+              <FILE id="hENXhQ" name="Knob_big__0084.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0084.png"/>
+              <FILE id="VyDorE" name="Knob_big__0085.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0085.png"/>
+              <FILE id="BLeaIg" name="Knob_big__0086.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0086.png"/>
+              <FILE id="SK9bIg" name="Knob_big__0087.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0087.png"/>
+              <FILE id="lhj9Gz" name="Knob_big__0088.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0088.png"/>
+              <FILE id="XoDfiY" name="Knob_big__0089.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0089.png"/>
+              <FILE id="Gf5vN6" name="Knob_big__0090.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0090.png"/>
+              <FILE id="EDcl8D" name="Knob_big__0091.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0091.png"/>
+              <FILE id="fa9P6i" name="Knob_big__0092.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0092.png"/>
+              <FILE id="MaLlQ9" name="Knob_big__0093.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0093.png"/>
+              <FILE id="XrMP0I" name="Knob_big__0094.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0094.png"/>
+              <FILE id="XrHv8m" name="Knob_big__0095.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0095.png"/>
+              <FILE id="kXsu4S" name="Knob_big__0096.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0096.png"/>
+              <FILE id="wiJ63q" name="Knob_big__0097.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0097.png"/>
+              <FILE id="NZ7Ccf" name="Knob_big__0098.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0098.png"/>
+              <FILE id="f53y3D" name="Knob_big__0099.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0099.png"/>
+              <FILE id="FHf7a0" name="Knob_big__0100.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0100.png"/>
+              <FILE id="E5faSR" name="Knob_big__0101.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0101.png"/>
+              <FILE id="qUPoYy" name="Knob_big__0102.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0102.png"/>
+              <FILE id="DnN5fL" name="Knob_big__0103.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0103.png"/>
+              <FILE id="uaICnO" name="Knob_big__0104.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0104.png"/>
+              <FILE id="LZrIrb" name="Knob_big__0105.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0105.png"/>
+              <FILE id="TTNxix" name="Knob_big__0106.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0106.png"/>
+              <FILE id="bU5YVW" name="Knob_big__0107.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0107.png"/>
+              <FILE id="HLCurb" name="Knob_big__0108.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0108.png"/>
+              <FILE id="oHjymd" name="Knob_big__0109.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0109.png"/>
+              <FILE id="WmR5tP" name="Knob_big__0110.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0110.png"/>
+              <FILE id="APTayK" name="Knob_big__0111.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0111.png"/>
+              <FILE id="imUI8l" name="Knob_big__0112.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0112.png"/>
+              <FILE id="LHeIh9" name="Knob_big__0113.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0113.png"/>
+              <FILE id="FKEz8C" name="Knob_big__0114.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0114.png"/>
+              <FILE id="XU4C49" name="Knob_big__0115.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0115.png"/>
+              <FILE id="Mlas5r" name="Knob_big__0116.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0116.png"/>
+              <FILE id="utiZxL" name="Knob_big__0117.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0117.png"/>
+              <FILE id="ojDpwZ" name="Knob_big__0118.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0118.png"/>
+              <FILE id="BAtdBG" name="Knob_big__0119.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0119.png"/>
+              <FILE id="PeJ9Y4" name="Knob_big__0120.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0120.png"/>
+              <FILE id="jZY2vY" name="Knob_big__0121.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0121.png"/>
+              <FILE id="izCqKm" name="Knob_big__0122.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0122.png"/>
+              <FILE id="HJQlrO" name="Knob_big__0123.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0123.png"/>
+              <FILE id="f0e0w7" name="Knob_big__0124.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0124.png"/>
+              <FILE id="UiWY81" name="Knob_big__0125.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0125.png"/>
+              <FILE id="MfK27H" name="Knob_big__0126.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0126.png"/>
+              <FILE id="B9rxoD" name="Knob_big__0127.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0127.png"/>
+              <FILE id="A2SJJ8" name="Knob_big__0128.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0128.png"/>
+              <FILE id="AjNm8K" name="Knob_big__0129.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0129.png"/>
+              <FILE id="OTc8kM" name="Knob_big__0130.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0130.png"/>
+              <FILE id="avN5Ve" name="Knob_big__0131.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0131.png"/>
+              <FILE id="WMovDs" name="Knob_big__0132.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0132.png"/>
+              <FILE id="gRswFk" name="Knob_big__0133.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0133.png"/>
+              <FILE id="JQHvCz" name="Knob_big__0134.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0134.png"/>
+              <FILE id="wpQT8X" name="Knob_big__0135.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0135.png"/>
+              <FILE id="QcMx20" name="Knob_big__0136.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0136.png"/>
+              <FILE id="KcE1ay" name="Knob_big__0137.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0137.png"/>
+              <FILE id="oRN5KE" name="Knob_big__0138.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0138.png"/>
+              <FILE id="PsofyO" name="Knob_big__0139.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0139.png"/>
+              <FILE id="R1mKJX" name="Knob_big__0140.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0140.png"/>
+              <FILE id="YijdSy" name="Knob_big__0141.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0141.png"/>
+              <FILE id="qbPjvh" name="Knob_big__0142.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0142.png"/>
+              <FILE id="ZqF6gl" name="Knob_big__0143.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0143.png"/>
+              <FILE id="kmT8WR" name="Knob_big__0144.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0144.png"/>
+              <FILE id="saTOom" name="Knob_big__0145.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0145.png"/>
+              <FILE id="bh1aS3" name="Knob_big__0146.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0146.png"/>
+              <FILE id="sFxxus" name="Knob_big__0147.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0147.png"/>
+              <FILE id="TChTUY" name="Knob_big__0148.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0148.png"/>
+              <FILE id="ZfD2KL" name="Knob_big__0149.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0149.png"/>
+              <FILE id="fuNXqi" name="Knob_big__0150.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0150.png"/>
+              <FILE id="NcYaxr" name="Knob_big__0151.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0151.png"/>
+              <FILE id="lqmSbZ" name="Knob_big__0152.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0152.png"/>
+              <FILE id="ieLazB" name="Knob_big__0153.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0153.png"/>
+              <FILE id="MRCvP5" name="Knob_big__0154.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0154.png"/>
+              <FILE id="fyM5bJ" name="Knob_big__0155.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0155.png"/>
+              <FILE id="okjcAt" name="Knob_big__0156.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0156.png"/>
+              <FILE id="XE6CX4" name="Knob_big__0157.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0157.png"/>
+              <FILE id="byMQwT" name="Knob_big__0158.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0158.png"/>
+              <FILE id="nRYcvW" name="Knob_big__0159.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0159.png"/>
+              <FILE id="AFqed0" name="Knob_big__0160.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0160.png"/>
+              <FILE id="Yn67C9" name="Knob_big__0161.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0161.png"/>
+              <FILE id="yx126a" name="Knob_big__0162.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0162.png"/>
+              <FILE id="yL0WVF" name="Knob_big__0163.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0163.png"/>
+              <FILE id="kJJiNo" name="Knob_big__0164.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0164.png"/>
+              <FILE id="cp85Js" name="Knob_big__0165.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0165.png"/>
+              <FILE id="HpC6fD" name="Knob_big__0166.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0166.png"/>
+              <FILE id="kGzbAO" name="Knob_big__0167.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0167.png"/>
+              <FILE id="W6i4hs" name="Knob_big__0168.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0168.png"/>
+              <FILE id="Q8XO6W" name="Knob_big__0169.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0169.png"/>
+              <FILE id="iTDojT" name="Knob_big__0170.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0170.png"/>
+              <FILE id="ZwpGEi" name="Knob_big__0171.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0171.png"/>
+              <FILE id="gnXV9c" name="Knob_big__0172.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0172.png"/>
+              <FILE id="kzPTPo" name="Knob_big__0173.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0173.png"/>
+              <FILE id="hF4pQl" name="Knob_big__0174.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0174.png"/>
+              <FILE id="JEXXWC" name="Knob_big__0175.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0175.png"/>
+              <FILE id="ECpsYB" name="Knob_big__0176.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0176.png"/>
+              <FILE id="VRswdr" name="Knob_big__0177.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0177.png"/>
+              <FILE id="zCVLON" name="Knob_big__0178.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0178.png"/>
+              <FILE id="ZRO8eT" name="Knob_big__0179.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0179.png"/>
+              <FILE id="qUyuKS" name="Knob_big__0180.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0180.png"/>
+              <FILE id="jpj45A" name="Knob_big__0181.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0181.png"/>
+              <FILE id="mhSRrg" name="Knob_big__0182.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0182.png"/>
+              <FILE id="ZZlmmn" name="Knob_big__0183.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0183.png"/>
+              <FILE id="lEaDDi" name="Knob_big__0184.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0184.png"/>
+              <FILE id="BwIZuZ" name="Knob_big__0185.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0185.png"/>
+              <FILE id="CjW32d" name="Knob_big__0186.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0186.png"/>
+              <FILE id="pB9fVU" name="Knob_big__0187.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0187.png"/>
+              <FILE id="Cjl2Gv" name="Knob_big__0188.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0188.png"/>
+              <FILE id="t8NgtW" name="Knob_big__0189.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0189.png"/>
+              <FILE id="KucAzB" name="Knob_big__0190.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0190.png"/>
+              <FILE id="A9kjWd" name="Knob_big__0191.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0191.png"/>
+              <FILE id="veOteI" name="Knob_big__0192.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0192.png"/>
+              <FILE id="S0Y9jX" name="Knob_big__0193.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0193.png"/>
+              <FILE id="MyPzX4" name="Knob_big__0194.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0194.png"/>
+              <FILE id="dQLNQY" name="Knob_big__0195.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0195.png"/>
+              <FILE id="TodLS5" name="Knob_big__0196.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0196.png"/>
+              <FILE id="p8Frv1" name="Knob_big__0197.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0197.png"/>
+              <FILE id="cynmmF" name="Knob_big__0198.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0198.png"/>
+              <FILE id="pQFnzm" name="Knob_big__0199.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0199.png"/>
+              <FILE id="aJzmjQ" name="Knob_big__0200.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0200.png"/>
+              <FILE id="toMl3x" name="Knob_big__0201.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0201.png"/>
+              <FILE id="rsKy1N" name="Knob_big__0202.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0202.png"/>
+              <FILE id="Wowv46" name="Knob_big__0203.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0203.png"/>
+              <FILE id="FShyzG" name="Knob_big__0204.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0204.png"/>
+              <FILE id="vglGh4" name="Knob_big__0205.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0205.png"/>
+              <FILE id="tzdAM0" name="Knob_big__0206.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0206.png"/>
+              <FILE id="VKo6Gf" name="Knob_big__0207.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0207.png"/>
+              <FILE id="nhLjMc" name="Knob_big__0208.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0208.png"/>
+              <FILE id="GFGg32" name="Knob_big__0209.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0209.png"/>
+              <FILE id="s3wPS9" name="Knob_big__0210.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0210.png"/>
+              <FILE id="GkBceb" name="Knob_big__0211.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0211.png"/>
+              <FILE id="BP1oWY" name="Knob_big__0212.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0212.png"/>
+              <FILE id="N2ZyNX" name="Knob_big__0213.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0213.png"/>
+              <FILE id="wxD3T3" name="Knob_big__0214.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0214.png"/>
+              <FILE id="SrGmr3" name="Knob_big__0215.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0215.png"/>
+              <FILE id="kOekKn" name="Knob_big__0216.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0216.png"/>
+              <FILE id="W1UVtI" name="Knob_big__0217.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0217.png"/>
+              <FILE id="Q7F1zT" name="Knob_big__0218.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0218.png"/>
+              <FILE id="F8Dcgh" name="Knob_big__0219.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0219.png"/>
+              <FILE id="rI3DIw" name="Knob_big__0220.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0220.png"/>
+              <FILE id="Kf6Xu4" name="Knob_big__0221.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0221.png"/>
+              <FILE id="HxHKC5" name="Knob_big__0222.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0222.png"/>
+              <FILE id="fSXgpq" name="Knob_big__0223.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0223.png"/>
+              <FILE id="Fm62tX" name="Knob_big__0224.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0224.png"/>
+              <FILE id="Xv1aIA" name="Knob_big__0225.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0225.png"/>
+              <FILE id="tcudq2" name="Knob_big__0226.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0226.png"/>
+              <FILE id="Jc8FXr" name="Knob_big__0227.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0227.png"/>
+              <FILE id="Trpr5h" name="Knob_big__0228.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0228.png"/>
+              <FILE id="H6EcM3" name="Knob_big__0229.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0229.png"/>
+              <FILE id="HhXOzu" name="Knob_big__0230.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0230.png"/>
+              <FILE id="gognku" name="Knob_big__0231.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0231.png"/>
+              <FILE id="OC6dzu" name="Knob_big__0232.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0232.png"/>
+              <FILE id="TyCD7R" name="Knob_big__0233.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0233.png"/>
+              <FILE id="bTTmbZ" name="Knob_big__0234.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0234.png"/>
+              <FILE id="gmaEXX" name="Knob_big__0235.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0235.png"/>
+              <FILE id="almIPV" name="Knob_big__0236.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0236.png"/>
+              <FILE id="ezadUF" name="Knob_big__0237.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0237.png"/>
+              <FILE id="FiDp9G" name="Knob_big__0238.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0238.png"/>
+              <FILE id="E7KgP9" name="Knob_big__0239.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0239.png"/>
+              <FILE id="a3wtgY" name="Knob_big__0240.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0240.png"/>
+              <FILE id="MHFdJ5" name="Knob_big__0241.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0241.png"/>
+              <FILE id="GIwMc9" name="Knob_big__0242.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0242.png"/>
+              <FILE id="wYPY19" name="Knob_big__0243.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0243.png"/>
+              <FILE id="Pw66NA" name="Knob_big__0244.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0244.png"/>
+              <FILE id="SyOxRd" name="Knob_big__0245.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0245.png"/>
+              <FILE id="xIW4iL" name="Knob_big__0246.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0246.png"/>
+              <FILE id="KBNXdv" name="Knob_big__0247.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0247.png"/>
+              <FILE id="DTkSfS" name="Knob_big__0248.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0248.png"/>
+              <FILE id="XhtpYm" name="Knob_big__0249.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0249.png"/>
+              <FILE id="kjGDtu" name="Knob_big__0250.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0250.png"/>
+              <FILE id="zuZOXJ" name="Knob_big__0251.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0251.png"/>
+              <FILE id="t5XiNh" name="Knob_big__0252.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0252.png"/>
+              <FILE id="osuQ3o" name="Knob_big__0253.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0253.png"/>
+              <FILE id="keCxdt" name="Knob_big__0254.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0254.png"/>
+              <FILE id="x6Gz0o" name="Knob_big__0255.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0255.png"/>
+              <FILE id="RsroaT" name="Knob_big__0256.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_big/Knob_big__0256.png"/>
+            </GROUP>
+            <GROUP id="{241C1400-F2C8-D0F4-962E-3BBF5E19A8AF}" name="Knob_middle">
+              <FILE id="kddIJO" name="Knob_middle_0000.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_middle/Knob_middle_0000.png"/>
+              <FILE id="a4G9qD" name="Knob_middle_0001.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_middle/Knob_middle_0001.png"/>
+              <FILE id="gmeC3x" name="Knob_middle_0002.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_middle/Knob_middle_0002.png"/>
+              <FILE id="cS3Htq" name="Knob_middle_0003.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_middle/Knob_middle_0003.png"/>
+              <FILE id="wK4D7l" name="Knob_middle_0004.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_middle/Knob_middle_0004.png"/>
+              <FILE id="BU067e" name="Knob_middle_0005.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_middle/Knob_middle_0005.png"/>
+              <FILE id="uOHqsG" name="Knob_middle_0006.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_middle/Knob_middle_0006.png"/>
+              <FILE id="AQqTfd" name="Knob_middle_0007.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_middle/Knob_middle_0007.png"/>
+              <FILE id="jTmfxn" name="Knob_middle_0008.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_middle/Knob_middle_0008.png"/>
+              <FILE id="LKVzlY" name="Knob_middle_0009.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_middle/Knob_middle_0009.png"/>
+              <FILE id="NvJgNO" name="Knob_middle_0010.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_middle/Knob_middle_0010.png"/>
+              <FILE id="G0Ya9M" name="Knob_middle_0011.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_middle/Knob_middle_0011.png"/>
+              <FILE id="u9FktM" name="Knob_middle_0012.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_middle/Knob_middle_0012.png"/>
+              <FILE id="jViojg" name="Knob_middle_0013.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_middle/Knob_middle_0013.png"/>
+              <FILE id="cMo4E8" name="Knob_middle_0014.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_middle/Knob_middle_0014.png"/>
+              <FILE id="OvUd9D" name="Knob_middle_0015.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_middle/Knob_middle_0015.png"/>
+              <FILE id="v84CeM" name="Knob_middle_0016.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_middle/Knob_middle_0016.png"/>
+              <FILE id="qhQ5ht" name="Knob_middle_0017.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_middle/Knob_middle_0017.png"/>
+              <FILE id="Ss5xNE" name="Knob_middle_0018.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_middle/Knob_middle_0018.png"/>
+              <FILE id="XII8z5" name="Knob_middle_0019.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_middle/Knob_middle_0019.png"/>
+              <FILE id="sWXIbF" name="Knob_middle_0020.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_middle/Knob_middle_0020.png"/>
+              <FILE id="L5Rsx1" name="Knob_middle_0021.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_middle/Knob_middle_0021.png"/>
+              <FILE id="MaFysa" name="Knob_middle_0022.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_middle/Knob_middle_0022.png"/>
+              <FILE id="Vo3FOu" name="Knob_middle_0023.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_middle/Knob_middle_0023.png"/>
+              <FILE id="sHUaya" name="Knob_middle_0024.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_middle/Knob_middle_0024.png"/>
+              <FILE id="sYQNj6" name="Knob_middle_0025.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_middle/Knob_middle_0025.png"/>
+              <FILE id="a4tG8k" name="Knob_middle_0026.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_middle/Knob_middle_0026.png"/>
+              <FILE id="epdjq3" name="Knob_middle_0027.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_middle/Knob_middle_0027.png"/>
+              <FILE id="RZHLL5" name="Knob_middle_0028.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_middle/Knob_middle_0028.png"/>
+              <FILE id="PiqwSW" name="Knob_middle_0029.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_middle/Knob_middle_0029.png"/>
+              <FILE id="v54rJr" name="Knob_middle_0030.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_middle/Knob_middle_0030.png"/>
+              <FILE id="EuEuzh" name="Knob_middle_0031.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_middle/Knob_middle_0031.png"/>
+              <FILE id="gxE1ma" name="Knob_middle_0032.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_middle/Knob_middle_0032.png"/>
+              <FILE id="QO4T1L" name="Knob_middle_0033.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_middle/Knob_middle_0033.png"/>
+              <FILE id="XLVmCW" name="Knob_middle_0034.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_middle/Knob_middle_0034.png"/>
+              <FILE id="zQTy72" name="Knob_middle_0035.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_middle/Knob_middle_0035.png"/>
+              <FILE id="I9G1M6" name="Knob_middle_0036.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_middle/Knob_middle_0036.png"/>
+              <FILE id="ib7Eey" name="Knob_middle_0037.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_middle/Knob_middle_0037.png"/>
+              <FILE id="aMzFAc" name="Knob_middle_0038.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_middle/Knob_middle_0038.png"/>
+              <FILE id="la750j" name="Knob_middle_0039.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_middle/Knob_middle_0039.png"/>
+              <FILE id="OaTn7k" name="Knob_middle_0040.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_middle/Knob_middle_0040.png"/>
+              <FILE id="NDCPM2" name="Knob_middle_0041.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_middle/Knob_middle_0041.png"/>
+              <FILE id="mLfwik" name="Knob_middle_0042.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_middle/Knob_middle_0042.png"/>
+              <FILE id="Gz2INf" name="Knob_middle_0043.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_middle/Knob_middle_0043.png"/>
+              <FILE id="Dtksxk" name="Knob_middle_0044.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_middle/Knob_middle_0044.png"/>
+              <FILE id="PZnsxR" name="Knob_middle_0045.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_middle/Knob_middle_0045.png"/>
+              <FILE id="oxNOkh" name="Knob_middle_0046.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_middle/Knob_middle_0046.png"/>
+              <FILE id="WIuYJn" name="Knob_middle_0047.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_middle/Knob_middle_0047.png"/>
+              <FILE id="MZ9ZG3" name="Knob_middle_0048.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_middle/Knob_middle_0048.png"/>
+              <FILE id="x7tXyI" name="Knob_middle_0049.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_middle/Knob_middle_0049.png"/>
+              <FILE id="ofdl2n" name="Knob_middle_0050.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_middle/Knob_middle_0050.png"/>
+              <FILE id="tDcP1P" name="Knob_middle_0051.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_middle/Knob_middle_0051.png"/>
+              <FILE id="uyoEmW" name="Knob_middle_0052.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_middle/Knob_middle_0052.png"/>
+              <FILE id="njHBmS" name="Knob_middle_0053.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_middle/Knob_middle_0053.png"/>
+              <FILE id="cd82g2" name="Knob_middle_0054.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_middle/Knob_middle_0054.png"/>
+              <FILE id="MWgS2S" name="Knob_middle_0055.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_middle/Knob_middle_0055.png"/>
+              <FILE id="WAGU5l" name="Knob_middle_0056.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_middle/Knob_middle_0056.png"/>
+              <FILE id="jdGYYx" name="Knob_middle_0057.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_middle/Knob_middle_0057.png"/>
+              <FILE id="BRngrI" name="Knob_middle_0058.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_middle/Knob_middle_0058.png"/>
+              <FILE id="KHxXFz" name="Knob_middle_0059.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_middle/Knob_middle_0059.png"/>
+              <FILE id="aqvMuh" name="Knob_middle_0060.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_middle/Knob_middle_0060.png"/>
+              <FILE id="EJnGoe" name="Knob_middle_0061.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_middle/Knob_middle_0061.png"/>
+              <FILE id="HGXQRB" name="Knob_middle_0062.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_middle/Knob_middle_0062.png"/>
+              <FILE id="rCaK0D" name="Knob_middle_0063.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_middle/Knob_middle_0063.png"/>
+              <FILE id="K41Z23" name="Knob_middle_0064.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_middle/Knob_middle_0064.png"/>
+              <FILE id="GiDhUQ" name="Knob_middle_0065.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_middle/Knob_middle_0065.png"/>
+              <FILE id="dcZodT" name="Knob_middle_0066.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_middle/Knob_middle_0066.png"/>
+              <FILE id="mERwJ5" name="Knob_middle_0067.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_middle/Knob_middle_0067.png"/>
+              <FILE id="edHRxr" name="Knob_middle_0068.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_middle/Knob_middle_0068.png"/>
+              <FILE id="ZbW2bw" name="Knob_middle_0069.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_middle/Knob_middle_0069.png"/>
+              <FILE id="h01Zga" name="Knob_middle_0070.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_middle/Knob_middle_0070.png"/>
+              <FILE id="sDRl4b" name="Knob_middle_0071.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_middle/Knob_middle_0071.png"/>
+              <FILE id="zPkwxZ" name="Knob_middle_0072.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_middle/Knob_middle_0072.png"/>
+              <FILE id="eAeUMg" name="Knob_middle_0073.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_middle/Knob_middle_0073.png"/>
+              <FILE id="UqyXOC" name="Knob_middle_0074.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_middle/Knob_middle_0074.png"/>
+              <FILE id="NeXeAa" name="Knob_middle_0075.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_middle/Knob_middle_0075.png"/>
+              <FILE id="QIwV0g" name="Knob_middle_0076.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_middle/Knob_middle_0076.png"/>
+              <FILE id="uHAlx3" name="Knob_middle_0077.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_middle/Knob_middle_0077.png"/>
+              <FILE id="wdeDX1" name="Knob_middle_0078.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_middle/Knob_middle_0078.png"/>
+              <FILE id="PVrb89" name="Knob_middle_0079.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_middle/Knob_middle_0079.png"/>
+              <FILE id="KzUy6O" name="Knob_middle_0080.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_middle/Knob_middle_0080.png"/>
+              <FILE id="Nm2Qfj" name="Knob_middle_0081.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_middle/Knob_middle_0081.png"/>
+              <FILE id="lOsU6h" name="Knob_middle_0082.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_middle/Knob_middle_0082.png"/>
+              <FILE id="psDkUI" name="Knob_middle_0083.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_middle/Knob_middle_0083.png"/>
+              <FILE id="ziOct9" name="Knob_middle_0084.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_middle/Knob_middle_0084.png"/>
+              <FILE id="qu6pWp" name="Knob_middle_0085.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_middle/Knob_middle_0085.png"/>
+              <FILE id="OePcZL" name="Knob_middle_0086.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_middle/Knob_middle_0086.png"/>
+              <FILE id="IkttJS" name="Knob_middle_0087.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_middle/Knob_middle_0087.png"/>
+              <FILE id="f0T68e" name="Knob_middle_0088.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_middle/Knob_middle_0088.png"/>
+              <FILE id="ZNvK0g" name="Knob_middle_0089.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_middle/Knob_middle_0089.png"/>
+              <FILE id="JtUfM3" name="Knob_middle_0090.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_middle/Knob_middle_0090.png"/>
+              <FILE id="dUZKXN" name="Knob_middle_0091.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_middle/Knob_middle_0091.png"/>
+              <FILE id="eIrh3k" name="Knob_middle_0092.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_middle/Knob_middle_0092.png"/>
+              <FILE id="H1azeq" name="Knob_middle_0093.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_middle/Knob_middle_0093.png"/>
+              <FILE id="KIxtfw" name="Knob_middle_0094.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_middle/Knob_middle_0094.png"/>
+              <FILE id="BoXus9" name="Knob_middle_0095.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_middle/Knob_middle_0095.png"/>
+              <FILE id="KLzTQr" name="Knob_middle_0096.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_middle/Knob_middle_0096.png"/>
+              <FILE id="Ar6nk0" name="Knob_middle_0097.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_middle/Knob_middle_0097.png"/>
+              <FILE id="MK9Ju4" name="Knob_middle_0098.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_middle/Knob_middle_0098.png"/>
+              <FILE id="eNQmRH" name="Knob_middle_0099.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_middle/Knob_middle_0099.png"/>
+              <FILE id="mYf4iW" name="Knob_middle_0100.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_middle/Knob_middle_0100.png"/>
+              <FILE id="JgnXI2" name="Knob_middle_0101.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_middle/Knob_middle_0101.png"/>
+              <FILE id="Wgjz5p" name="Knob_middle_0102.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_middle/Knob_middle_0102.png"/>
+              <FILE id="jvwRes" name="Knob_middle_0103.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_middle/Knob_middle_0103.png"/>
+              <FILE id="biYijc" name="Knob_middle_0104.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_middle/Knob_middle_0104.png"/>
+              <FILE id="eREMvA" name="Knob_middle_0105.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_middle/Knob_middle_0105.png"/>
+              <FILE id="CS5MSZ" name="Knob_middle_0106.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_middle/Knob_middle_0106.png"/>
+              <FILE id="EEnlXX" name="Knob_middle_0107.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_middle/Knob_middle_0107.png"/>
+              <FILE id="COPA06" name="Knob_middle_0108.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_middle/Knob_middle_0108.png"/>
+              <FILE id="pXXumr" name="Knob_middle_0109.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_middle/Knob_middle_0109.png"/>
+              <FILE id="Z4o0kE" name="Knob_middle_0110.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_middle/Knob_middle_0110.png"/>
+              <FILE id="a0jO1Q" name="Knob_middle_0111.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_middle/Knob_middle_0111.png"/>
+              <FILE id="gW3zaE" name="Knob_middle_0112.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_middle/Knob_middle_0112.png"/>
+              <FILE id="mPbLUt" name="Knob_middle_0113.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_middle/Knob_middle_0113.png"/>
+              <FILE id="RYZGoU" name="Knob_middle_0114.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_middle/Knob_middle_0114.png"/>
+              <FILE id="Eh68vt" name="Knob_middle_0115.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_middle/Knob_middle_0115.png"/>
+              <FILE id="YgAWRL" name="Knob_middle_0116.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_middle/Knob_middle_0116.png"/>
+              <FILE id="Rymgsa" name="Knob_middle_0117.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_middle/Knob_middle_0117.png"/>
+              <FILE id="bXIRVt" name="Knob_middle_0118.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_middle/Knob_middle_0118.png"/>
+              <FILE id="XiH9fk" name="Knob_middle_0119.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_middle/Knob_middle_0119.png"/>
+              <FILE id="WqkU3e" name="Knob_middle_0120.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_middle/Knob_middle_0120.png"/>
+              <FILE id="qgkuzh" name="Knob_middle_0121.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_middle/Knob_middle_0121.png"/>
+              <FILE id="eF9DIM" name="Knob_middle_0122.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_middle/Knob_middle_0122.png"/>
+              <FILE id="LUGPY8" name="Knob_middle_0123.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_middle/Knob_middle_0123.png"/>
+              <FILE id="Hioni6" name="Knob_middle_0124.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_middle/Knob_middle_0124.png"/>
+              <FILE id="dzP3hN" name="Knob_middle_0125.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_middle/Knob_middle_0125.png"/>
+              <FILE id="PFq6LW" name="Knob_middle_0126.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_middle/Knob_middle_0126.png"/>
+              <FILE id="MDlY6U" name="Knob_middle_0127.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_middle/Knob_middle_0127.png"/>
+              <FILE id="tpNsXw" name="Knob_middle_0128.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_middle/Knob_middle_0128.png"/>
+            </GROUP>
+            <GROUP id="{08107C0B-431E-09E3-E16A-ED7D76F69F4F}" name="Knob_small">
+              <FILE id="I86E6l" name="Knob_small_0000.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_small/Knob_small_0000.png"/>
+              <FILE id="mKVI43" name="Knob_small_0001.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_small/Knob_small_0001.png"/>
+              <FILE id="W3ZMJC" name="Knob_small_0002.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_small/Knob_small_0002.png"/>
+              <FILE id="UvvcDU" name="Knob_small_0003.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_small/Knob_small_0003.png"/>
+              <FILE id="SCxjSf" name="Knob_small_0004.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_small/Knob_small_0004.png"/>
+              <FILE id="k7ZzV4" name="Knob_small_0005.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_small/Knob_small_0005.png"/>
+              <FILE id="XBxBPR" name="Knob_small_0006.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_small/Knob_small_0006.png"/>
+              <FILE id="d6dpiL" name="Knob_small_0007.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_small/Knob_small_0007.png"/>
+              <FILE id="Gof1X1" name="Knob_small_0008.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_small/Knob_small_0008.png"/>
+              <FILE id="VG3739" name="Knob_small_0009.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_small/Knob_small_0009.png"/>
+              <FILE id="pu2rVU" name="Knob_small_0010.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_small/Knob_small_0010.png"/>
+              <FILE id="QZ9EG2" name="Knob_small_0011.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_small/Knob_small_0011.png"/>
+              <FILE id="Wj4jTx" name="Knob_small_0012.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_small/Knob_small_0012.png"/>
+              <FILE id="GHRHM8" name="Knob_small_0013.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_small/Knob_small_0013.png"/>
+              <FILE id="zFb3Sz" name="Knob_small_0014.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_small/Knob_small_0014.png"/>
+              <FILE id="s72HmG" name="Knob_small_0015.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_small/Knob_small_0015.png"/>
+              <FILE id="z9xqfH" name="Knob_small_0016.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_small/Knob_small_0016.png"/>
+              <FILE id="IcWvGc" name="Knob_small_0017.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_small/Knob_small_0017.png"/>
+              <FILE id="fH1Ohh" name="Knob_small_0018.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_small/Knob_small_0018.png"/>
+              <FILE id="b3Basr" name="Knob_small_0019.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_small/Knob_small_0019.png"/>
+              <FILE id="PG4QkB" name="Knob_small_0020.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_small/Knob_small_0020.png"/>
+              <FILE id="YlzVoH" name="Knob_small_0021.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_small/Knob_small_0021.png"/>
+              <FILE id="zBtqOh" name="Knob_small_0022.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_small/Knob_small_0022.png"/>
+              <FILE id="PCGnwO" name="Knob_small_0023.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_small/Knob_small_0023.png"/>
+              <FILE id="elcpdr" name="Knob_small_0024.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_small/Knob_small_0024.png"/>
+              <FILE id="jmbrJg" name="Knob_small_0025.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_small/Knob_small_0025.png"/>
+              <FILE id="S9nDsC" name="Knob_small_0026.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_small/Knob_small_0026.png"/>
+              <FILE id="o47SZp" name="Knob_small_0027.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_small/Knob_small_0027.png"/>
+              <FILE id="UbzjtZ" name="Knob_small_0028.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_small/Knob_small_0028.png"/>
+              <FILE id="YVJ7Jz" name="Knob_small_0029.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_small/Knob_small_0029.png"/>
+              <FILE id="Ao7BX3" name="Knob_small_0030.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_small/Knob_small_0030.png"/>
+              <FILE id="JcS7fI" name="Knob_small_0031.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_small/Knob_small_0031.png"/>
+              <FILE id="ymuT7E" name="Knob_small_0032.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_small/Knob_small_0032.png"/>
+              <FILE id="X4FY4T" name="Knob_small_0033.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_small/Knob_small_0033.png"/>
+              <FILE id="PsXMhL" name="Knob_small_0034.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_small/Knob_small_0034.png"/>
+              <FILE id="OBhZka" name="Knob_small_0035.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_small/Knob_small_0035.png"/>
+              <FILE id="zRpaBQ" name="Knob_small_0036.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_small/Knob_small_0036.png"/>
+              <FILE id="pOmGGE" name="Knob_small_0037.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_small/Knob_small_0037.png"/>
+              <FILE id="tDp1We" name="Knob_small_0038.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_small/Knob_small_0038.png"/>
+              <FILE id="c8pjxI" name="Knob_small_0039.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_small/Knob_small_0039.png"/>
+              <FILE id="i2ASpT" name="Knob_small_0040.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_small/Knob_small_0040.png"/>
+              <FILE id="HSfDUP" name="Knob_small_0041.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_small/Knob_small_0041.png"/>
+              <FILE id="IgdIsX" name="Knob_small_0042.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_small/Knob_small_0042.png"/>
+              <FILE id="t577EM" name="Knob_small_0043.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_small/Knob_small_0043.png"/>
+              <FILE id="ZhvLoC" name="Knob_small_0044.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_small/Knob_small_0044.png"/>
+              <FILE id="ztNWZj" name="Knob_small_0045.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_small/Knob_small_0045.png"/>
+              <FILE id="ZU9Auh" name="Knob_small_0046.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_small/Knob_small_0046.png"/>
+              <FILE id="Ttp9OX" name="Knob_small_0047.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_small/Knob_small_0047.png"/>
+              <FILE id="XdeZtL" name="Knob_small_0048.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_small/Knob_small_0048.png"/>
+              <FILE id="QEGlNE" name="Knob_small_0049.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_small/Knob_small_0049.png"/>
+              <FILE id="pmHPjk" name="Knob_small_0050.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_small/Knob_small_0050.png"/>
+              <FILE id="Y9A94H" name="Knob_small_0051.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_small/Knob_small_0051.png"/>
+              <FILE id="vlM8g3" name="Knob_small_0052.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_small/Knob_small_0052.png"/>
+              <FILE id="wpWA9v" name="Knob_small_0053.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_small/Knob_small_0053.png"/>
+              <FILE id="tLEHN7" name="Knob_small_0054.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_small/Knob_small_0054.png"/>
+              <FILE id="zaYhzq" name="Knob_small_0055.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_small/Knob_small_0055.png"/>
+              <FILE id="cnYmfz" name="Knob_small_0056.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_small/Knob_small_0056.png"/>
+              <FILE id="jtpYIA" name="Knob_small_0057.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_small/Knob_small_0057.png"/>
+              <FILE id="VUJbzZ" name="Knob_small_0058.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_small/Knob_small_0058.png"/>
+              <FILE id="bFkSlP" name="Knob_small_0059.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_small/Knob_small_0059.png"/>
+              <FILE id="Q8Rcho" name="Knob_small_0060.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_small/Knob_small_0060.png"/>
+              <FILE id="XI4wsD" name="Knob_small_0061.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_small/Knob_small_0061.png"/>
+              <FILE id="V3fBK7" name="Knob_small_0062.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_small/Knob_small_0062.png"/>
+              <FILE id="NYc6ns" name="Knob_small_0063.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_small/Knob_small_0063.png"/>
+              <FILE id="DRA6gu" name="Knob_small_0064.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_small/Knob_small_0064.png"/>
+              <FILE id="U2ZD2j" name="Knob_small_0065.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_small/Knob_small_0065.png"/>
+              <FILE id="lwghHH" name="Knob_small_0066.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_small/Knob_small_0066.png"/>
+              <FILE id="wLWN8h" name="Knob_small_0067.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_small/Knob_small_0067.png"/>
+              <FILE id="O3tIAb" name="Knob_small_0068.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_small/Knob_small_0068.png"/>
+              <FILE id="ctZfya" name="Knob_small_0069.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_small/Knob_small_0069.png"/>
+              <FILE id="QUmIYE" name="Knob_small_0070.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_small/Knob_small_0070.png"/>
+              <FILE id="MkTx1M" name="Knob_small_0071.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_small/Knob_small_0071.png"/>
+              <FILE id="gCjRwc" name="Knob_small_0072.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_small/Knob_small_0072.png"/>
+              <FILE id="nfYrvg" name="Knob_small_0073.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_small/Knob_small_0073.png"/>
+              <FILE id="xiBovl" name="Knob_small_0074.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_small/Knob_small_0074.png"/>
+              <FILE id="xEWC8L" name="Knob_small_0075.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_small/Knob_small_0075.png"/>
+              <FILE id="L1jaS2" name="Knob_small_0076.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_small/Knob_small_0076.png"/>
+              <FILE id="Cltn9k" name="Knob_small_0077.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_small/Knob_small_0077.png"/>
+              <FILE id="uiPWwL" name="Knob_small_0078.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_small/Knob_small_0078.png"/>
+              <FILE id="wwnMbk" name="Knob_small_0079.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_small/Knob_small_0079.png"/>
+              <FILE id="mhBxLU" name="Knob_small_0080.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_small/Knob_small_0080.png"/>
+              <FILE id="qdFQgm" name="Knob_small_0081.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_small/Knob_small_0081.png"/>
+              <FILE id="qN7S4r" name="Knob_small_0082.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_small/Knob_small_0082.png"/>
+              <FILE id="fUGXYE" name="Knob_small_0083.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_small/Knob_small_0083.png"/>
+              <FILE id="p9Mf42" name="Knob_small_0084.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_small/Knob_small_0084.png"/>
+              <FILE id="TA1RLe" name="Knob_small_0085.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_small/Knob_small_0085.png"/>
+              <FILE id="JBP4ct" name="Knob_small_0086.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_small/Knob_small_0086.png"/>
+              <FILE id="Dw8cr5" name="Knob_small_0087.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_small/Knob_small_0087.png"/>
+              <FILE id="EQ45KD" name="Knob_small_0088.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_small/Knob_small_0088.png"/>
+              <FILE id="LBq6ye" name="Knob_small_0089.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_small/Knob_small_0089.png"/>
+              <FILE id="lFsDVS" name="Knob_small_0090.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_small/Knob_small_0090.png"/>
+              <FILE id="AUgRBs" name="Knob_small_0091.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_small/Knob_small_0091.png"/>
+              <FILE id="ZGugUJ" name="Knob_small_0092.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_small/Knob_small_0092.png"/>
+              <FILE id="Dgp6oR" name="Knob_small_0093.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_small/Knob_small_0093.png"/>
+              <FILE id="JzbR5s" name="Knob_small_0094.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_small/Knob_small_0094.png"/>
+              <FILE id="u92SfC" name="Knob_small_0095.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_small/Knob_small_0095.png"/>
+              <FILE id="V2LcXk" name="Knob_small_0096.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_small/Knob_small_0096.png"/>
+              <FILE id="Bh1yEv" name="Knob_small_0097.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_small/Knob_small_0097.png"/>
+              <FILE id="MhhmgQ" name="Knob_small_0098.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_small/Knob_small_0098.png"/>
+              <FILE id="PKPvo3" name="Knob_small_0099.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_small/Knob_small_0099.png"/>
+              <FILE id="agMpvM" name="Knob_small_0100.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_small/Knob_small_0100.png"/>
+              <FILE id="AfY3bX" name="Knob_small_0101.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_small/Knob_small_0101.png"/>
+              <FILE id="Krqwdv" name="Knob_small_0102.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_small/Knob_small_0102.png"/>
+              <FILE id="GNNC0J" name="Knob_small_0103.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_small/Knob_small_0103.png"/>
+              <FILE id="CG4z0Q" name="Knob_small_0104.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_small/Knob_small_0104.png"/>
+              <FILE id="mbGuRC" name="Knob_small_0105.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_small/Knob_small_0105.png"/>
+              <FILE id="GyHhjO" name="Knob_small_0106.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_small/Knob_small_0106.png"/>
+              <FILE id="ztJnGW" name="Knob_small_0107.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_small/Knob_small_0107.png"/>
+              <FILE id="temIjT" name="Knob_small_0108.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_small/Knob_small_0108.png"/>
+              <FILE id="sg0U0d" name="Knob_small_0109.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_small/Knob_small_0109.png"/>
+              <FILE id="ZzrDit" name="Knob_small_0110.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_small/Knob_small_0110.png"/>
+              <FILE id="hXgRR0" name="Knob_small_0111.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_small/Knob_small_0111.png"/>
+              <FILE id="lPjbQz" name="Knob_small_0112.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_small/Knob_small_0112.png"/>
+              <FILE id="QrJDd8" name="Knob_small_0113.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_small/Knob_small_0113.png"/>
+              <FILE id="V3oQzX" name="Knob_small_0114.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_small/Knob_small_0114.png"/>
+              <FILE id="d6gOkQ" name="Knob_small_0115.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_small/Knob_small_0115.png"/>
+              <FILE id="lE6c4I" name="Knob_small_0116.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_small/Knob_small_0116.png"/>
+              <FILE id="rDVucX" name="Knob_small_0117.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_small/Knob_small_0117.png"/>
+              <FILE id="bDP6EP" name="Knob_small_0118.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_small/Knob_small_0118.png"/>
+              <FILE id="L0Hjgt" name="Knob_small_0119.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_small/Knob_small_0119.png"/>
+              <FILE id="zzSVev" name="Knob_small_0120.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_small/Knob_small_0120.png"/>
+              <FILE id="QHyZx6" name="Knob_small_0121.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_small/Knob_small_0121.png"/>
+              <FILE id="VRH1Fc" name="Knob_small_0122.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_small/Knob_small_0122.png"/>
+              <FILE id="WeAu4P" name="Knob_small_0123.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_small/Knob_small_0123.png"/>
+              <FILE id="EiOXKS" name="Knob_small_0124.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_small/Knob_small_0124.png"/>
+              <FILE id="sihgd6" name="Knob_small_0125.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_small/Knob_small_0125.png"/>
+              <FILE id="AyaQa0" name="Knob_small_0126.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_small/Knob_small_0126.png"/>
+              <FILE id="xYTCHW" name="Knob_small_0127.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_small/Knob_small_0127.png"/>
+              <FILE id="d8EClv" name="Knob_small_0128.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Knob_small/Knob_small_0128.png"/>
+            </GROUP>
+            <GROUP id="{BD48F83C-3D73-EE6E-BCDA-CDCCAA657F5A}" name="Slider_horizontal">
+              <FILE id="xLVJMM" name="Slider_horizontal_0000.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_horizontal/Slider_horizontal_0000.png"/>
+              <FILE id="DtoTdV" name="Slider_horizontal_0001.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_horizontal/Slider_horizontal_0001.png"/>
+              <FILE id="bajezx" name="Slider_horizontal_0002.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_horizontal/Slider_horizontal_0002.png"/>
+              <FILE id="jwjgAv" name="Slider_horizontal_0003.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_horizontal/Slider_horizontal_0003.png"/>
+              <FILE id="reaKlC" name="Slider_horizontal_0004.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_horizontal/Slider_horizontal_0004.png"/>
+              <FILE id="Dtg3IY" name="Slider_horizontal_0005.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_horizontal/Slider_horizontal_0005.png"/>
+              <FILE id="K9ssOM" name="Slider_horizontal_0006.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_horizontal/Slider_horizontal_0006.png"/>
+              <FILE id="lReW0t" name="Slider_horizontal_0007.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_horizontal/Slider_horizontal_0007.png"/>
+              <FILE id="rfMn8I" name="Slider_horizontal_0008.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_horizontal/Slider_horizontal_0008.png"/>
+              <FILE id="ckD1r2" name="Slider_horizontal_0009.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_horizontal/Slider_horizontal_0009.png"/>
+              <FILE id="nJ6w0S" name="Slider_horizontal_0010.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_horizontal/Slider_horizontal_0010.png"/>
+              <FILE id="pyTWMs" name="Slider_horizontal_0011.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_horizontal/Slider_horizontal_0011.png"/>
+              <FILE id="NNQjDv" name="Slider_horizontal_0012.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_horizontal/Slider_horizontal_0012.png"/>
+              <FILE id="O0qzEf" name="Slider_horizontal_0013.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_horizontal/Slider_horizontal_0013.png"/>
+              <FILE id="TJbhkg" name="Slider_horizontal_0014.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_horizontal/Slider_horizontal_0014.png"/>
+              <FILE id="OvxTTa" name="Slider_horizontal_0015.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_horizontal/Slider_horizontal_0015.png"/>
+              <FILE id="YpdbcR" name="Slider_horizontal_0016.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_horizontal/Slider_horizontal_0016.png"/>
+              <FILE id="JNCL0t" name="Slider_horizontal_0017.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_horizontal/Slider_horizontal_0017.png"/>
+              <FILE id="ZLcUgb" name="Slider_horizontal_0018.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_horizontal/Slider_horizontal_0018.png"/>
+              <FILE id="rOvV8J" name="Slider_horizontal_0019.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_horizontal/Slider_horizontal_0019.png"/>
+              <FILE id="oKuSdi" name="Slider_horizontal_0020.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_horizontal/Slider_horizontal_0020.png"/>
+              <FILE id="wpI4og" name="Slider_horizontal_0021.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_horizontal/Slider_horizontal_0021.png"/>
+              <FILE id="ufqmes" name="Slider_horizontal_0022.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_horizontal/Slider_horizontal_0022.png"/>
+              <FILE id="G5C73w" name="Slider_horizontal_0023.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_horizontal/Slider_horizontal_0023.png"/>
+              <FILE id="mVTlXv" name="Slider_horizontal_0024.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_horizontal/Slider_horizontal_0024.png"/>
+              <FILE id="TIxYnZ" name="Slider_horizontal_0025.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_horizontal/Slider_horizontal_0025.png"/>
+              <FILE id="YQ39Gx" name="Slider_horizontal_0026.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_horizontal/Slider_horizontal_0026.png"/>
+              <FILE id="zVQLCz" name="Slider_horizontal_0027.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_horizontal/Slider_horizontal_0027.png"/>
+              <FILE id="lWbUKQ" name="Slider_horizontal_0028.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_horizontal/Slider_horizontal_0028.png"/>
+              <FILE id="AwhRgj" name="Slider_horizontal_0029.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_horizontal/Slider_horizontal_0029.png"/>
+              <FILE id="Lpdm3M" name="Slider_horizontal_0030.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_horizontal/Slider_horizontal_0030.png"/>
+              <FILE id="ziad0K" name="Slider_horizontal_0031.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_horizontal/Slider_horizontal_0031.png"/>
+              <FILE id="VcFJVW" name="Slider_horizontal_0032.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_horizontal/Slider_horizontal_0032.png"/>
+              <FILE id="moyM45" name="Slider_horizontal_0033.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_horizontal/Slider_horizontal_0033.png"/>
+              <FILE id="RU92jg" name="Slider_horizontal_0034.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_horizontal/Slider_horizontal_0034.png"/>
+              <FILE id="eAHADC" name="Slider_horizontal_0035.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_horizontal/Slider_horizontal_0035.png"/>
+              <FILE id="HFeA9X" name="Slider_horizontal_0036.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_horizontal/Slider_horizontal_0036.png"/>
+              <FILE id="wz9zaW" name="Slider_horizontal_0037.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_horizontal/Slider_horizontal_0037.png"/>
+              <FILE id="Ub0I2b" name="Slider_horizontal_0038.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_horizontal/Slider_horizontal_0038.png"/>
+              <FILE id="Fuzweo" name="Slider_horizontal_0039.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_horizontal/Slider_horizontal_0039.png"/>
+              <FILE id="hM7bVr" name="Slider_horizontal_0040.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_horizontal/Slider_horizontal_0040.png"/>
+              <FILE id="SInsVr" name="Slider_horizontal_0041.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_horizontal/Slider_horizontal_0041.png"/>
+              <FILE id="qgFxcj" name="Slider_horizontal_0042.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_horizontal/Slider_horizontal_0042.png"/>
+              <FILE id="G3zyys" name="Slider_horizontal_0043.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_horizontal/Slider_horizontal_0043.png"/>
+              <FILE id="lxHRqJ" name="Slider_horizontal_0044.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_horizontal/Slider_horizontal_0044.png"/>
+              <FILE id="tu38sA" name="Slider_horizontal_0045.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_horizontal/Slider_horizontal_0045.png"/>
+              <FILE id="qkNgoH" name="Slider_horizontal_0046.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_horizontal/Slider_horizontal_0046.png"/>
+              <FILE id="Qpmpbl" name="Slider_horizontal_0047.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_horizontal/Slider_horizontal_0047.png"/>
+              <FILE id="rQAVh9" name="Slider_horizontal_0048.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_horizontal/Slider_horizontal_0048.png"/>
+              <FILE id="BIIA3T" name="Slider_horizontal_0049.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_horizontal/Slider_horizontal_0049.png"/>
+              <FILE id="hbi6Xf" name="Slider_horizontal_0050.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_horizontal/Slider_horizontal_0050.png"/>
+              <FILE id="Z7d2AD" name="Slider_horizontal_0051.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_horizontal/Slider_horizontal_0051.png"/>
+              <FILE id="PclPyC" name="Slider_horizontal_0052.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_horizontal/Slider_horizontal_0052.png"/>
+              <FILE id="qEpGBy" name="Slider_horizontal_0053.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_horizontal/Slider_horizontal_0053.png"/>
+              <FILE id="LcVVV0" name="Slider_horizontal_0054.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_horizontal/Slider_horizontal_0054.png"/>
+              <FILE id="uXJfU4" name="Slider_horizontal_0055.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_horizontal/Slider_horizontal_0055.png"/>
+              <FILE id="jv0DGd" name="Slider_horizontal_0056.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_horizontal/Slider_horizontal_0056.png"/>
+              <FILE id="ahi33U" name="Slider_horizontal_0057.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_horizontal/Slider_horizontal_0057.png"/>
+              <FILE id="iZHKXQ" name="Slider_horizontal_0058.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_horizontal/Slider_horizontal_0058.png"/>
+              <FILE id="g7DHb0" name="Slider_horizontal_0059.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_horizontal/Slider_horizontal_0059.png"/>
+              <FILE id="lph8n1" name="Slider_horizontal_0060.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_horizontal/Slider_horizontal_0060.png"/>
+              <FILE id="AL80CG" name="Slider_horizontal_0061.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_horizontal/Slider_horizontal_0061.png"/>
+              <FILE id="djuQ5S" name="Slider_horizontal_0062.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_horizontal/Slider_horizontal_0062.png"/>
+              <FILE id="fxjSK4" name="Slider_horizontal_0063.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_horizontal/Slider_horizontal_0063.png"/>
+              <FILE id="Lvj68g" name="Slider_horizontal_0064.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_horizontal/Slider_horizontal_0064.png"/>
+              <FILE id="h0drHC" name="Slider_horizontal_0065.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_horizontal/Slider_horizontal_0065.png"/>
+              <FILE id="wDOQBf" name="Slider_horizontal_0066.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_horizontal/Slider_horizontal_0066.png"/>
+              <FILE id="Z4P9NC" name="Slider_horizontal_0067.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_horizontal/Slider_horizontal_0067.png"/>
+              <FILE id="OTR7dj" name="Slider_horizontal_0068.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_horizontal/Slider_horizontal_0068.png"/>
+              <FILE id="lUNpEb" name="Slider_horizontal_0069.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_horizontal/Slider_horizontal_0069.png"/>
+              <FILE id="Ebbdc2" name="Slider_horizontal_0070.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_horizontal/Slider_horizontal_0070.png"/>
+              <FILE id="nCnN7L" name="Slider_horizontal_0071.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_horizontal/Slider_horizontal_0071.png"/>
+              <FILE id="zptB3I" name="Slider_horizontal_0072.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_horizontal/Slider_horizontal_0072.png"/>
+              <FILE id="EpwirV" name="Slider_horizontal_0073.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_horizontal/Slider_horizontal_0073.png"/>
+              <FILE id="Ptzv8e" name="Slider_horizontal_0074.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_horizontal/Slider_horizontal_0074.png"/>
+              <FILE id="oqNRsi" name="Slider_horizontal_0075.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_horizontal/Slider_horizontal_0075.png"/>
+              <FILE id="LjGPCj" name="Slider_horizontal_0076.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_horizontal/Slider_horizontal_0076.png"/>
+              <FILE id="KvScGh" name="Slider_horizontal_0077.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_horizontal/Slider_horizontal_0077.png"/>
+              <FILE id="stGRN0" name="Slider_horizontal_0078.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_horizontal/Slider_horizontal_0078.png"/>
+              <FILE id="baXgz5" name="Slider_horizontal_0079.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_horizontal/Slider_horizontal_0079.png"/>
+              <FILE id="jL8ICB" name="Slider_horizontal_0080.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_horizontal/Slider_horizontal_0080.png"/>
+              <FILE id="A2TWZc" name="Slider_horizontal_0081.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_horizontal/Slider_horizontal_0081.png"/>
+              <FILE id="glJrdM" name="Slider_horizontal_0082.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_horizontal/Slider_horizontal_0082.png"/>
+              <FILE id="FeqWlE" name="Slider_horizontal_0083.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_horizontal/Slider_horizontal_0083.png"/>
+              <FILE id="FIXVPy" name="Slider_horizontal_0084.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_horizontal/Slider_horizontal_0084.png"/>
+              <FILE id="jF5Bm9" name="Slider_horizontal_0085.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_horizontal/Slider_horizontal_0085.png"/>
+              <FILE id="cbxzSs" name="Slider_horizontal_0086.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_horizontal/Slider_horizontal_0086.png"/>
+              <FILE id="NWGx6O" name="Slider_horizontal_0087.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_horizontal/Slider_horizontal_0087.png"/>
+              <FILE id="zddIAJ" name="Slider_horizontal_0088.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_horizontal/Slider_horizontal_0088.png"/>
+              <FILE id="ZfKGTZ" name="Slider_horizontal_0089.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_horizontal/Slider_horizontal_0089.png"/>
+              <FILE id="j8aejB" name="Slider_horizontal_0090.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_horizontal/Slider_horizontal_0090.png"/>
+              <FILE id="RNKT4k" name="Slider_horizontal_0091.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_horizontal/Slider_horizontal_0091.png"/>
+              <FILE id="dNqSB5" name="Slider_horizontal_0092.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_horizontal/Slider_horizontal_0092.png"/>
+              <FILE id="UGrJnt" name="Slider_horizontal_0093.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_horizontal/Slider_horizontal_0093.png"/>
+              <FILE id="jCgNkT" name="Slider_horizontal_0094.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_horizontal/Slider_horizontal_0094.png"/>
+              <FILE id="WZQKaI" name="Slider_horizontal_0095.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_horizontal/Slider_horizontal_0095.png"/>
+              <FILE id="mLjKyc" name="Slider_horizontal_0096.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_horizontal/Slider_horizontal_0096.png"/>
+              <FILE id="xwhsmS" name="Slider_horizontal_0097.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_horizontal/Slider_horizontal_0097.png"/>
+              <FILE id="BFHOxm" name="Slider_horizontal_0098.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_horizontal/Slider_horizontal_0098.png"/>
+              <FILE id="zy1kI4" name="Slider_horizontal_0099.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_horizontal/Slider_horizontal_0099.png"/>
+              <FILE id="XqS2je" name="Slider_horizontal_0100.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_horizontal/Slider_horizontal_0100.png"/>
+              <FILE id="QzqIpv" name="Slider_horizontal_0101.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_horizontal/Slider_horizontal_0101.png"/>
+              <FILE id="fGqBqB" name="Slider_horizontal_0102.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_horizontal/Slider_horizontal_0102.png"/>
+              <FILE id="KppzBH" name="Slider_horizontal_0103.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_horizontal/Slider_horizontal_0103.png"/>
+              <FILE id="Nmde5d" name="Slider_horizontal_0104.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_horizontal/Slider_horizontal_0104.png"/>
+              <FILE id="CDhi0Y" name="Slider_horizontal_0105.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_horizontal/Slider_horizontal_0105.png"/>
+              <FILE id="BOLsMr" name="Slider_horizontal_0106.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_horizontal/Slider_horizontal_0106.png"/>
+              <FILE id="cqEjln" name="Slider_horizontal_0107.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_horizontal/Slider_horizontal_0107.png"/>
+              <FILE id="PFmQka" name="Slider_horizontal_0108.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_horizontal/Slider_horizontal_0108.png"/>
+              <FILE id="rPAOn1" name="Slider_horizontal_0109.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_horizontal/Slider_horizontal_0109.png"/>
+              <FILE id="yoHmv7" name="Slider_horizontal_0110.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_horizontal/Slider_horizontal_0110.png"/>
+              <FILE id="HdrcQU" name="Slider_horizontal_0111.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_horizontal/Slider_horizontal_0111.png"/>
+              <FILE id="sHGl3U" name="Slider_horizontal_0112.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_horizontal/Slider_horizontal_0112.png"/>
+              <FILE id="Qimk5j" name="Slider_horizontal_0113.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_horizontal/Slider_horizontal_0113.png"/>
+              <FILE id="Wz7yZi" name="Slider_horizontal_0114.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_horizontal/Slider_horizontal_0114.png"/>
+              <FILE id="sJlPUf" name="Slider_horizontal_0115.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_horizontal/Slider_horizontal_0115.png"/>
+              <FILE id="mPwXNH" name="Slider_horizontal_0116.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_horizontal/Slider_horizontal_0116.png"/>
+              <FILE id="xaYLAD" name="Slider_horizontal_0117.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_horizontal/Slider_horizontal_0117.png"/>
+              <FILE id="SnP1PH" name="Slider_horizontal_0118.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_horizontal/Slider_horizontal_0118.png"/>
+              <FILE id="nfTsy8" name="Slider_horizontal_0119.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_horizontal/Slider_horizontal_0119.png"/>
+              <FILE id="TKOKbU" name="Slider_horizontal_0120.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_horizontal/Slider_horizontal_0120.png"/>
+              <FILE id="xpVdXB" name="Slider_horizontal_0121.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_horizontal/Slider_horizontal_0121.png"/>
+              <FILE id="Z9GzG1" name="Slider_horizontal_0122.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_horizontal/Slider_horizontal_0122.png"/>
+              <FILE id="hOynLA" name="Slider_horizontal_0123.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_horizontal/Slider_horizontal_0123.png"/>
+              <FILE id="Lven9s" name="Slider_horizontal_0124.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_horizontal/Slider_horizontal_0124.png"/>
+              <FILE id="swkLlv" name="Slider_horizontal_0125.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_horizontal/Slider_horizontal_0125.png"/>
+              <FILE id="UDsO9u" name="Slider_horizontal_0126.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_horizontal/Slider_horizontal_0126.png"/>
+              <FILE id="zm2rT5" name="Slider_horizontal_0127.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_horizontal/Slider_horizontal_0127.png"/>
+              <FILE id="OK1z68" name="Slider_horizontal_0128.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_horizontal/Slider_horizontal_0128.png"/>
+            </GROUP>
+            <GROUP id="{FA67A3AF-F6C1-F0E2-83E8-174601E84ED3}" name="Slider_vertical">
+              <FILE id="zD4yLs" name="Slider_vertical_0000.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_vertical/Slider_vertical_0000.png"/>
+              <FILE id="wWZhSp" name="Slider_vertical_0001.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_vertical/Slider_vertical_0001.png"/>
+              <FILE id="VcScsm" name="Slider_vertical_0002.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_vertical/Slider_vertical_0002.png"/>
+              <FILE id="yFArGw" name="Slider_vertical_0003.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_vertical/Slider_vertical_0003.png"/>
+              <FILE id="jV9zcx" name="Slider_vertical_0004.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_vertical/Slider_vertical_0004.png"/>
+              <FILE id="IFMxhQ" name="Slider_vertical_0005.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_vertical/Slider_vertical_0005.png"/>
+              <FILE id="ka3NZG" name="Slider_vertical_0006.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_vertical/Slider_vertical_0006.png"/>
+              <FILE id="pQspBt" name="Slider_vertical_0007.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_vertical/Slider_vertical_0007.png"/>
+              <FILE id="JzNbOd" name="Slider_vertical_0008.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_vertical/Slider_vertical_0008.png"/>
+              <FILE id="nsMENY" name="Slider_vertical_0009.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_vertical/Slider_vertical_0009.png"/>
+              <FILE id="Xm0zLg" name="Slider_vertical_0010.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_vertical/Slider_vertical_0010.png"/>
+              <FILE id="sv2Poc" name="Slider_vertical_0011.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_vertical/Slider_vertical_0011.png"/>
+              <FILE id="s5CzJi" name="Slider_vertical_0012.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_vertical/Slider_vertical_0012.png"/>
+              <FILE id="gDVveR" name="Slider_vertical_0013.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_vertical/Slider_vertical_0013.png"/>
+              <FILE id="WJvA9T" name="Slider_vertical_0014.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_vertical/Slider_vertical_0014.png"/>
+              <FILE id="GvRFGq" name="Slider_vertical_0015.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_vertical/Slider_vertical_0015.png"/>
+              <FILE id="ajyUc5" name="Slider_vertical_0016.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_vertical/Slider_vertical_0016.png"/>
+              <FILE id="BgjONp" name="Slider_vertical_0017.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_vertical/Slider_vertical_0017.png"/>
+              <FILE id="mjDBjL" name="Slider_vertical_0018.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_vertical/Slider_vertical_0018.png"/>
+              <FILE id="vKYCkZ" name="Slider_vertical_0019.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_vertical/Slider_vertical_0019.png"/>
+              <FILE id="DMrU6r" name="Slider_vertical_0020.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_vertical/Slider_vertical_0020.png"/>
+              <FILE id="fBF4I1" name="Slider_vertical_0021.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_vertical/Slider_vertical_0021.png"/>
+              <FILE id="hVUTma" name="Slider_vertical_0022.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_vertical/Slider_vertical_0022.png"/>
+              <FILE id="Y3etbI" name="Slider_vertical_0023.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_vertical/Slider_vertical_0023.png"/>
+              <FILE id="QezzHA" name="Slider_vertical_0024.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_vertical/Slider_vertical_0024.png"/>
+              <FILE id="QtK37O" name="Slider_vertical_0025.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_vertical/Slider_vertical_0025.png"/>
+              <FILE id="xIptdf" name="Slider_vertical_0026.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_vertical/Slider_vertical_0026.png"/>
+              <FILE id="XFgdTs" name="Slider_vertical_0027.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_vertical/Slider_vertical_0027.png"/>
+              <FILE id="Qasj1L" name="Slider_vertical_0028.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_vertical/Slider_vertical_0028.png"/>
+              <FILE id="zrSmNL" name="Slider_vertical_0029.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_vertical/Slider_vertical_0029.png"/>
+              <FILE id="gHJh8H" name="Slider_vertical_0030.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_vertical/Slider_vertical_0030.png"/>
+              <FILE id="fhMwvE" name="Slider_vertical_0031.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_vertical/Slider_vertical_0031.png"/>
+              <FILE id="azgiHU" name="Slider_vertical_0032.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_vertical/Slider_vertical_0032.png"/>
+              <FILE id="wwFr3E" name="Slider_vertical_0033.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_vertical/Slider_vertical_0033.png"/>
+              <FILE id="ZF0QW4" name="Slider_vertical_0034.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_vertical/Slider_vertical_0034.png"/>
+              <FILE id="h9yLQh" name="Slider_vertical_0035.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_vertical/Slider_vertical_0035.png"/>
+              <FILE id="AosZtD" name="Slider_vertical_0036.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_vertical/Slider_vertical_0036.png"/>
+              <FILE id="XIUJws" name="Slider_vertical_0037.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_vertical/Slider_vertical_0037.png"/>
+              <FILE id="YBRr3M" name="Slider_vertical_0038.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_vertical/Slider_vertical_0038.png"/>
+              <FILE id="GmNfZy" name="Slider_vertical_0039.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_vertical/Slider_vertical_0039.png"/>
+              <FILE id="MNrgIf" name="Slider_vertical_0040.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_vertical/Slider_vertical_0040.png"/>
+              <FILE id="vXI0NL" name="Slider_vertical_0041.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_vertical/Slider_vertical_0041.png"/>
+              <FILE id="jhv7IO" name="Slider_vertical_0042.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_vertical/Slider_vertical_0042.png"/>
+              <FILE id="dEcxOz" name="Slider_vertical_0043.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_vertical/Slider_vertical_0043.png"/>
+              <FILE id="AfdKsG" name="Slider_vertical_0044.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_vertical/Slider_vertical_0044.png"/>
+              <FILE id="wfxDJ0" name="Slider_vertical_0045.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_vertical/Slider_vertical_0045.png"/>
+              <FILE id="m1Lz5H" name="Slider_vertical_0046.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_vertical/Slider_vertical_0046.png"/>
+              <FILE id="BJq6nq" name="Slider_vertical_0047.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_vertical/Slider_vertical_0047.png"/>
+              <FILE id="FtOKQ1" name="Slider_vertical_0048.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_vertical/Slider_vertical_0048.png"/>
+              <FILE id="o2JYLI" name="Slider_vertical_0049.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_vertical/Slider_vertical_0049.png"/>
+              <FILE id="pEdoOU" name="Slider_vertical_0050.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_vertical/Slider_vertical_0050.png"/>
+              <FILE id="CulpPG" name="Slider_vertical_0051.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_vertical/Slider_vertical_0051.png"/>
+              <FILE id="NjwlX2" name="Slider_vertical_0052.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_vertical/Slider_vertical_0052.png"/>
+              <FILE id="yCqjib" name="Slider_vertical_0053.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_vertical/Slider_vertical_0053.png"/>
+              <FILE id="tBpxYD" name="Slider_vertical_0054.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_vertical/Slider_vertical_0054.png"/>
+              <FILE id="YVtKIE" name="Slider_vertical_0055.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_vertical/Slider_vertical_0055.png"/>
+              <FILE id="QQ0cti" name="Slider_vertical_0056.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_vertical/Slider_vertical_0056.png"/>
+              <FILE id="d5BOq5" name="Slider_vertical_0057.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_vertical/Slider_vertical_0057.png"/>
+              <FILE id="IHF5bm" name="Slider_vertical_0058.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_vertical/Slider_vertical_0058.png"/>
+              <FILE id="fdET4O" name="Slider_vertical_0059.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_vertical/Slider_vertical_0059.png"/>
+              <FILE id="ROilc9" name="Slider_vertical_0060.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_vertical/Slider_vertical_0060.png"/>
+              <FILE id="QtSyQC" name="Slider_vertical_0061.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_vertical/Slider_vertical_0061.png"/>
+              <FILE id="SUXV1f" name="Slider_vertical_0062.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_vertical/Slider_vertical_0062.png"/>
+              <FILE id="wa6UhO" name="Slider_vertical_0063.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_vertical/Slider_vertical_0063.png"/>
+              <FILE id="tq4BU1" name="Slider_vertical_0064.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_vertical/Slider_vertical_0064.png"/>
+              <FILE id="FaGkQ9" name="Slider_vertical_0065.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_vertical/Slider_vertical_0065.png"/>
+              <FILE id="FsIM4k" name="Slider_vertical_0066.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_vertical/Slider_vertical_0066.png"/>
+              <FILE id="VZcQVJ" name="Slider_vertical_0067.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_vertical/Slider_vertical_0067.png"/>
+              <FILE id="xj3NSf" name="Slider_vertical_0068.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_vertical/Slider_vertical_0068.png"/>
+              <FILE id="fnwSe9" name="Slider_vertical_0069.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_vertical/Slider_vertical_0069.png"/>
+              <FILE id="dHLu3k" name="Slider_vertical_0070.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_vertical/Slider_vertical_0070.png"/>
+              <FILE id="jbkHfd" name="Slider_vertical_0071.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_vertical/Slider_vertical_0071.png"/>
+              <FILE id="UZ3bvi" name="Slider_vertical_0072.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_vertical/Slider_vertical_0072.png"/>
+              <FILE id="HGxIBP" name="Slider_vertical_0073.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_vertical/Slider_vertical_0073.png"/>
+              <FILE id="QUx2qh" name="Slider_vertical_0074.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_vertical/Slider_vertical_0074.png"/>
+              <FILE id="zxVlsx" name="Slider_vertical_0075.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_vertical/Slider_vertical_0075.png"/>
+              <FILE id="udNdax" name="Slider_vertical_0076.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_vertical/Slider_vertical_0076.png"/>
+              <FILE id="AnSP5K" name="Slider_vertical_0077.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_vertical/Slider_vertical_0077.png"/>
+              <FILE id="mMf04R" name="Slider_vertical_0078.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_vertical/Slider_vertical_0078.png"/>
+              <FILE id="GNfyjC" name="Slider_vertical_0079.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_vertical/Slider_vertical_0079.png"/>
+              <FILE id="hzquTi" name="Slider_vertical_0080.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_vertical/Slider_vertical_0080.png"/>
+              <FILE id="obxmPR" name="Slider_vertical_0081.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_vertical/Slider_vertical_0081.png"/>
+              <FILE id="lkxwXi" name="Slider_vertical_0082.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_vertical/Slider_vertical_0082.png"/>
+              <FILE id="VOv9Fl" name="Slider_vertical_0083.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_vertical/Slider_vertical_0083.png"/>
+              <FILE id="xIz45H" name="Slider_vertical_0084.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_vertical/Slider_vertical_0084.png"/>
+              <FILE id="IqY8NK" name="Slider_vertical_0085.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_vertical/Slider_vertical_0085.png"/>
+              <FILE id="yxEedL" name="Slider_vertical_0086.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_vertical/Slider_vertical_0086.png"/>
+              <FILE id="Ewqrsh" name="Slider_vertical_0087.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_vertical/Slider_vertical_0087.png"/>
+              <FILE id="QLuU7C" name="Slider_vertical_0088.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_vertical/Slider_vertical_0088.png"/>
+              <FILE id="nGmuTI" name="Slider_vertical_0089.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_vertical/Slider_vertical_0089.png"/>
+              <FILE id="bU0HcX" name="Slider_vertical_0090.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_vertical/Slider_vertical_0090.png"/>
+              <FILE id="elncfV" name="Slider_vertical_0091.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_vertical/Slider_vertical_0091.png"/>
+              <FILE id="KNNTaz" name="Slider_vertical_0092.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_vertical/Slider_vertical_0092.png"/>
+              <FILE id="VvtFmi" name="Slider_vertical_0093.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_vertical/Slider_vertical_0093.png"/>
+              <FILE id="A7XAr1" name="Slider_vertical_0094.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_vertical/Slider_vertical_0094.png"/>
+              <FILE id="fuuKYI" name="Slider_vertical_0095.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_vertical/Slider_vertical_0095.png"/>
+              <FILE id="WR5CWZ" name="Slider_vertical_0096.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_vertical/Slider_vertical_0096.png"/>
+              <FILE id="VaddU9" name="Slider_vertical_0097.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_vertical/Slider_vertical_0097.png"/>
+              <FILE id="TaWk40" name="Slider_vertical_0098.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_vertical/Slider_vertical_0098.png"/>
+              <FILE id="DQQpbJ" name="Slider_vertical_0099.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_vertical/Slider_vertical_0099.png"/>
+              <FILE id="OECKXG" name="Slider_vertical_0100.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_vertical/Slider_vertical_0100.png"/>
+              <FILE id="o3JBpX" name="Slider_vertical_0101.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_vertical/Slider_vertical_0101.png"/>
+              <FILE id="B0UsUH" name="Slider_vertical_0102.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_vertical/Slider_vertical_0102.png"/>
+              <FILE id="ERJToq" name="Slider_vertical_0103.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_vertical/Slider_vertical_0103.png"/>
+              <FILE id="mtBMOy" name="Slider_vertical_0104.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_vertical/Slider_vertical_0104.png"/>
+              <FILE id="Gybtbi" name="Slider_vertical_0105.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_vertical/Slider_vertical_0105.png"/>
+              <FILE id="b0eyeX" name="Slider_vertical_0106.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_vertical/Slider_vertical_0106.png"/>
+              <FILE id="wOTxUy" name="Slider_vertical_0107.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_vertical/Slider_vertical_0107.png"/>
+              <FILE id="tgaioa" name="Slider_vertical_0108.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_vertical/Slider_vertical_0108.png"/>
+              <FILE id="SoayMo" name="Slider_vertical_0109.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_vertical/Slider_vertical_0109.png"/>
+              <FILE id="mUmbcf" name="Slider_vertical_0110.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_vertical/Slider_vertical_0110.png"/>
+              <FILE id="ne3Qki" name="Slider_vertical_0111.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_vertical/Slider_vertical_0111.png"/>
+              <FILE id="eCRZEt" name="Slider_vertical_0112.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_vertical/Slider_vertical_0112.png"/>
+              <FILE id="boCmWn" name="Slider_vertical_0113.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_vertical/Slider_vertical_0113.png"/>
+              <FILE id="oEqH0k" name="Slider_vertical_0114.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_vertical/Slider_vertical_0114.png"/>
+              <FILE id="q1FOJR" name="Slider_vertical_0115.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_vertical/Slider_vertical_0115.png"/>
+              <FILE id="q5oLGf" name="Slider_vertical_0116.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_vertical/Slider_vertical_0116.png"/>
+              <FILE id="eCuOzk" name="Slider_vertical_0117.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_vertical/Slider_vertical_0117.png"/>
+              <FILE id="qy2AQ3" name="Slider_vertical_0118.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_vertical/Slider_vertical_0118.png"/>
+              <FILE id="jbdoGC" name="Slider_vertical_0119.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_vertical/Slider_vertical_0119.png"/>
+              <FILE id="L7wsll" name="Slider_vertical_0120.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_vertical/Slider_vertical_0120.png"/>
+              <FILE id="df89Td" name="Slider_vertical_0121.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_vertical/Slider_vertical_0121.png"/>
+              <FILE id="YA3VKi" name="Slider_vertical_0122.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_vertical/Slider_vertical_0122.png"/>
+              <FILE id="kDtfX6" name="Slider_vertical_0123.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_vertical/Slider_vertical_0123.png"/>
+              <FILE id="MGq5Ae" name="Slider_vertical_0124.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_vertical/Slider_vertical_0124.png"/>
+              <FILE id="eKg1Pr" name="Slider_vertical_0125.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_vertical/Slider_vertical_0125.png"/>
+              <FILE id="c231pp" name="Slider_vertical_0126.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_vertical/Slider_vertical_0126.png"/>
+              <FILE id="pu0lPE" name="Slider_vertical_0127.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_vertical/Slider_vertical_0127.png"/>
+              <FILE id="xWcH4H" name="Slider_vertical_0128.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Slider_vertical/Slider_vertical_0128.png"/>
+            </GROUP>
+            <GROUP id="{4E481694-EA85-244A-F631-2FAB69CE1D2B}" name="Vu_meter">
+              <FILE id="pagkIn" name="vu_meter_0000.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Vu_meter/vu_meter_0000.png"/>
+              <FILE id="ASoNai" name="vu_meter_0001.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Vu_meter/vu_meter_0001.png"/>
+              <FILE id="TMpBUj" name="vu_meter_0002.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Vu_meter/vu_meter_0002.png"/>
+              <FILE id="eaJVrp" name="vu_meter_0003.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Vu_meter/vu_meter_0003.png"/>
+              <FILE id="gUHm8C" name="vu_meter_0004.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Vu_meter/vu_meter_0004.png"/>
+              <FILE id="Md1DBa" name="vu_meter_0005.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Vu_meter/vu_meter_0005.png"/>
+              <FILE id="mmo5pN" name="vu_meter_0006.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Vu_meter/vu_meter_0006.png"/>
+              <FILE id="jiZxIJ" name="vu_meter_0007.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Vu_meter/vu_meter_0007.png"/>
+              <FILE id="K29uaw" name="vu_meter_0008.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Vu_meter/vu_meter_0008.png"/>
+              <FILE id="O8zvmb" name="vu_meter_0009.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Vu_meter/vu_meter_0009.png"/>
+              <FILE id="PA15By" name="vu_meter_0010.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Vu_meter/vu_meter_0010.png"/>
+              <FILE id="tKl9cz" name="vu_meter_0011.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Vu_meter/vu_meter_0011.png"/>
+              <FILE id="ALU1vj" name="vu_meter_0012.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Vu_meter/vu_meter_0012.png"/>
+              <FILE id="aytkQJ" name="vu_meter_0013.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Vu_meter/vu_meter_0013.png"/>
+              <FILE id="jkIqVA" name="vu_meter_0014.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Vu_meter/vu_meter_0014.png"/>
+              <FILE id="fgs6xQ" name="vu_meter_0015.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Vu_meter/vu_meter_0015.png"/>
+              <FILE id="idDLJ3" name="vu_meter_0016.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Vu_meter/vu_meter_0016.png"/>
+              <FILE id="Ihdm24" name="vu_meter_0017.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Vu_meter/vu_meter_0017.png"/>
+              <FILE id="v3Q8ty" name="vu_meter_0018.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Vu_meter/vu_meter_0018.png"/>
+              <FILE id="WgiJfh" name="vu_meter_0019.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Vu_meter/vu_meter_0019.png"/>
+              <FILE id="QHfbMH" name="vu_meter_0020.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Vu_meter/vu_meter_0020.png"/>
+              <FILE id="OSTAeA" name="vu_meter_0021.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Vu_meter/vu_meter_0021.png"/>
+              <FILE id="n9Rt0v" name="vu_meter_0022.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Vu_meter/vu_meter_0022.png"/>
+              <FILE id="z5YdQx" name="vu_meter_0023.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Vu_meter/vu_meter_0023.png"/>
+              <FILE id="fJkegY" name="vu_meter_0024.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Vu_meter/vu_meter_0024.png"/>
+              <FILE id="tSLgDy" name="vu_meter_0025.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Vu_meter/vu_meter_0025.png"/>
+              <FILE id="o1h7w8" name="vu_meter_0026.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Vu_meter/vu_meter_0026.png"/>
+              <FILE id="h3bRAX" name="vu_meter_0027.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Vu_meter/vu_meter_0027.png"/>
+              <FILE id="LhtQTw" name="vu_meter_0028.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Vu_meter/vu_meter_0028.png"/>
+              <FILE id="i6Uxm0" name="vu_meter_0029.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Vu_meter/vu_meter_0029.png"/>
+              <FILE id="iOzLZP" name="vu_meter_0030.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Vu_meter/vu_meter_0030.png"/>
+              <FILE id="pNig7b" name="vu_meter_0031.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Vu_meter/vu_meter_0031.png"/>
+              <FILE id="cKBoXg" name="vu_meter_0032.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Vu_meter/vu_meter_0032.png"/>
+              <FILE id="VFVnh4" name="vu_meter_0033.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Vu_meter/vu_meter_0033.png"/>
+              <FILE id="ePy3P9" name="vu_meter_0034.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Vu_meter/vu_meter_0034.png"/>
+              <FILE id="nQ8D6t" name="vu_meter_0035.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Vu_meter/vu_meter_0035.png"/>
+              <FILE id="CFIGkT" name="vu_meter_0036.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Vu_meter/vu_meter_0036.png"/>
+              <FILE id="EF5RF6" name="vu_meter_0037.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Vu_meter/vu_meter_0037.png"/>
+              <FILE id="WzRMd1" name="vu_meter_0038.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Vu_meter/vu_meter_0038.png"/>
+              <FILE id="FtnaMU" name="vu_meter_0039.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Vu_meter/vu_meter_0039.png"/>
+              <FILE id="cLvV4L" name="vu_meter_0040.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Vu_meter/vu_meter_0040.png"/>
+              <FILE id="u0orrf" name="vu_meter_0041.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Vu_meter/vu_meter_0041.png"/>
+              <FILE id="XFupal" name="vu_meter_0042.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Vu_meter/vu_meter_0042.png"/>
+              <FILE id="O9A715" name="vu_meter_0043.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Vu_meter/vu_meter_0043.png"/>
+              <FILE id="PF40J6" name="vu_meter_0044.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Vu_meter/vu_meter_0044.png"/>
+              <FILE id="g1NFb0" name="vu_meter_0045.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Vu_meter/vu_meter_0045.png"/>
+              <FILE id="amKlVu" name="vu_meter_0046.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Vu_meter/vu_meter_0046.png"/>
+              <FILE id="L6vteR" name="vu_meter_0047.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Vu_meter/vu_meter_0047.png"/>
+              <FILE id="Kcd6lu" name="vu_meter_0048.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Vu_meter/vu_meter_0048.png"/>
+              <FILE id="kJi0M7" name="vu_meter_0049.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Vu_meter/vu_meter_0049.png"/>
+              <FILE id="pwm925" name="vu_meter_0050.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Vu_meter/vu_meter_0050.png"/>
+              <FILE id="pIgBGP" name="vu_meter_0051.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Vu_meter/vu_meter_0051.png"/>
+              <FILE id="IPlWxo" name="vu_meter_0052.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Vu_meter/vu_meter_0052.png"/>
+              <FILE id="dbChDj" name="vu_meter_0053.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Vu_meter/vu_meter_0053.png"/>
+              <FILE id="JiKs7B" name="vu_meter_0054.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Vu_meter/vu_meter_0054.png"/>
+              <FILE id="Ya4Qvk" name="vu_meter_0055.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Vu_meter/vu_meter_0055.png"/>
+              <FILE id="iVMScC" name="vu_meter_0056.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Vu_meter/vu_meter_0056.png"/>
+              <FILE id="Qf8YRm" name="vu_meter_0057.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Vu_meter/vu_meter_0057.png"/>
+              <FILE id="BrT0iX" name="vu_meter_0058.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Vu_meter/vu_meter_0058.png"/>
+              <FILE id="ZUpY83" name="vu_meter_0059.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Vu_meter/vu_meter_0059.png"/>
+              <FILE id="iOTfEq" name="vu_meter_0060.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Vu_meter/vu_meter_0060.png"/>
+              <FILE id="CnX7Hz" name="vu_meter_0061.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Vu_meter/vu_meter_0061.png"/>
+              <FILE id="AV6r7s" name="vu_meter_0062.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Vu_meter/vu_meter_0062.png"/>
+              <FILE id="NXmTDe" name="vu_meter_0063.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Vu_meter/vu_meter_0063.png"/>
+              <FILE id="KHyKTL" name="vu_meter_0064.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Vu_meter/vu_meter_0064.png"/>
+              <FILE id="pb3yz0" name="vu_meter_0065.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Vu_meter/vu_meter_0065.png"/>
+              <FILE id="M6G0EA" name="vu_meter_0066.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Vu_meter/vu_meter_0066.png"/>
+              <FILE id="Uja2IY" name="vu_meter_0067.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Vu_meter/vu_meter_0067.png"/>
+              <FILE id="wFIGcS" name="vu_meter_0068.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Vu_meter/vu_meter_0068.png"/>
+              <FILE id="AzN8VS" name="vu_meter_0069.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Vu_meter/vu_meter_0069.png"/>
+              <FILE id="gc4DTV" name="vu_meter_0070.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Vu_meter/vu_meter_0070.png"/>
+              <FILE id="rywFmy" name="vu_meter_0071.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Vu_meter/vu_meter_0071.png"/>
+              <FILE id="UjE0qe" name="vu_meter_0072.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Vu_meter/vu_meter_0072.png"/>
+              <FILE id="GwHmXD" name="vu_meter_0073.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Vu_meter/vu_meter_0073.png"/>
+              <FILE id="Qq08bX" name="vu_meter_0074.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Vu_meter/vu_meter_0074.png"/>
+              <FILE id="J3mDlC" name="vu_meter_0075.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Vu_meter/vu_meter_0075.png"/>
+              <FILE id="BP7wQq" name="vu_meter_0076.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Vu_meter/vu_meter_0076.png"/>
+              <FILE id="esHwl4" name="vu_meter_0077.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Vu_meter/vu_meter_0077.png"/>
+              <FILE id="sRNuaR" name="vu_meter_0078.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Vu_meter/vu_meter_0078.png"/>
+              <FILE id="NimkWs" name="vu_meter_0079.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Vu_meter/vu_meter_0079.png"/>
+              <FILE id="Kyadev" name="vu_meter_0080.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Vu_meter/vu_meter_0080.png"/>
+              <FILE id="d2bM0n" name="vu_meter_0081.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Vu_meter/vu_meter_0081.png"/>
+              <FILE id="wCWYRT" name="vu_meter_0082.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Vu_meter/vu_meter_0082.png"/>
+              <FILE id="GFaMah" name="vu_meter_0083.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Vu_meter/vu_meter_0083.png"/>
+              <FILE id="V8gBTA" name="vu_meter_0084.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Vu_meter/vu_meter_0084.png"/>
+              <FILE id="v6E3zH" name="vu_meter_0085.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Vu_meter/vu_meter_0085.png"/>
+              <FILE id="c4v1jJ" name="vu_meter_0086.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Vu_meter/vu_meter_0086.png"/>
+              <FILE id="mOpEMQ" name="vu_meter_0087.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Vu_meter/vu_meter_0087.png"/>
+              <FILE id="jZx7eB" name="vu_meter_0088.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Vu_meter/vu_meter_0088.png"/>
+              <FILE id="b7XwCg" name="vu_meter_0089.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Vu_meter/vu_meter_0089.png"/>
+              <FILE id="SNX3ZH" name="vu_meter_0090.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Vu_meter/vu_meter_0090.png"/>
+              <FILE id="f0jZPo" name="vu_meter_0091.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Vu_meter/vu_meter_0091.png"/>
+              <FILE id="LTirdy" name="vu_meter_0092.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Vu_meter/vu_meter_0092.png"/>
+              <FILE id="hPxSCS" name="vu_meter_0093.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Vu_meter/vu_meter_0093.png"/>
+              <FILE id="Yv3bcB" name="vu_meter_0094.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Vu_meter/vu_meter_0094.png"/>
+              <FILE id="NZQhy2" name="vu_meter_0095.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Vu_meter/vu_meter_0095.png"/>
+              <FILE id="dEU1EL" name="vu_meter_0096.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Vu_meter/vu_meter_0096.png"/>
+              <FILE id="u9T5rN" name="vu_meter_0097.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Vu_meter/vu_meter_0097.png"/>
+              <FILE id="kaaase" name="vu_meter_0098.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Vu_meter/vu_meter_0098.png"/>
+              <FILE id="ufhiX5" name="vu_meter_0099.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Vu_meter/vu_meter_0099.png"/>
+              <FILE id="ZqhpcA" name="vu_meter_0100.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Vu_meter/vu_meter_0100.png"/>
+              <FILE id="qBAZ5A" name="vu_meter_0101.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Vu_meter/vu_meter_0101.png"/>
+              <FILE id="B9R2uf" name="vu_meter_0102.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Vu_meter/vu_meter_0102.png"/>
+              <FILE id="xR4ZcA" name="vu_meter_0103.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Vu_meter/vu_meter_0103.png"/>
+              <FILE id="ZTrVoR" name="vu_meter_0104.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Vu_meter/vu_meter_0104.png"/>
+              <FILE id="KihpKY" name="vu_meter_0105.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Vu_meter/vu_meter_0105.png"/>
+              <FILE id="rZkIkK" name="vu_meter_0106.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Vu_meter/vu_meter_0106.png"/>
+              <FILE id="yG571c" name="vu_meter_0107.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Vu_meter/vu_meter_0107.png"/>
+              <FILE id="AE8d6v" name="vu_meter_0108.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Vu_meter/vu_meter_0108.png"/>
+              <FILE id="q50aIL" name="vu_meter_0109.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Vu_meter/vu_meter_0109.png"/>
+              <FILE id="ijcHZ0" name="vu_meter_0110.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Vu_meter/vu_meter_0110.png"/>
+              <FILE id="x2j7fY" name="vu_meter_0111.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Vu_meter/vu_meter_0111.png"/>
+              <FILE id="lzyPYP" name="vu_meter_0112.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Vu_meter/vu_meter_0112.png"/>
+              <FILE id="SSlLp2" name="vu_meter_0113.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Vu_meter/vu_meter_0113.png"/>
+              <FILE id="sYJKiP" name="vu_meter_0114.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Vu_meter/vu_meter_0114.png"/>
+              <FILE id="J6SxHa" name="vu_meter_0115.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Vu_meter/vu_meter_0115.png"/>
+              <FILE id="KhyiaV" name="vu_meter_0116.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Vu_meter/vu_meter_0116.png"/>
+              <FILE id="awXtxr" name="vu_meter_0117.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Vu_meter/vu_meter_0117.png"/>
+              <FILE id="IIdAbO" name="vu_meter_0118.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Vu_meter/vu_meter_0118.png"/>
+              <FILE id="IVkk9d" name="vu_meter_0119.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Vu_meter/vu_meter_0119.png"/>
+              <FILE id="R0jP17" name="vu_meter_0120.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Vu_meter/vu_meter_0120.png"/>
+              <FILE id="NjsWmd" name="vu_meter_0121.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Vu_meter/vu_meter_0121.png"/>
+              <FILE id="iEtpPA" name="vu_meter_0122.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Vu_meter/vu_meter_0122.png"/>
+              <FILE id="QQ9Sr4" name="vu_meter_0123.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Vu_meter/vu_meter_0123.png"/>
+              <FILE id="MGzwfl" name="vu_meter_0124.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Vu_meter/vu_meter_0124.png"/>
+              <FILE id="WpDuhp" name="vu_meter_0125.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Vu_meter/vu_meter_0125.png"/>
+              <FILE id="pbqtFZ" name="vu_meter_0126.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Vu_meter/vu_meter_0126.png"/>
+              <FILE id="HcfM1u" name="vu_meter_0127.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Vu_meter/vu_meter_0127.png"/>
+              <FILE id="qORN66" name="vu_meter_0128.png" compile="0" resource="1"
+                    file="Source/Assets/Animations/OneShots/Vu_meter/vu_meter_0128.png"/>
+            </GROUP>
+            <GROUP id="{2890D7AE-5BC9-3E9D-A3F5-6D8B5E4BF33A}" name="Wheel">
+              <FILE id="ohlpnU" name="Wheel_0000.png" compile="0" resource="1" file="Source/Assets/Animations/OneShots/Wheel/Wheel_0000.png"/>
+              <FILE id="hvblOj" name="Wheel_0001.png" compile="0" resource="1" file="Source/Assets/Animations/OneShots/Wheel/Wheel_0001.png"/>
+              <FILE id="jZO6wl" name="Wheel_0002.png" compile="0" resource="1" file="Source/Assets/Animations/OneShots/Wheel/Wheel_0002.png"/>
+              <FILE id="QXul9y" name="Wheel_0003.png" compile="0" resource="1" file="Source/Assets/Animations/OneShots/Wheel/Wheel_0003.png"/>
+              <FILE id="g4lxhK" name="Wheel_0004.png" compile="0" resource="1" file="Source/Assets/Animations/OneShots/Wheel/Wheel_0004.png"/>
+              <FILE id="O7iRJz" name="Wheel_0005.png" compile="0" resource="1" file="Source/Assets/Animations/OneShots/Wheel/Wheel_0005.png"/>
+              <FILE id="Q6RTaz" name="Wheel_0006.png" compile="0" resource="1" file="Source/Assets/Animations/OneShots/Wheel/Wheel_0006.png"/>
+              <FILE id="MWMMZn" name="Wheel_0007.png" compile="0" resource="1" file="Source/Assets/Animations/OneShots/Wheel/Wheel_0007.png"/>
+              <FILE id="TI4l5S" name="Wheel_0008.png" compile="0" resource="1" file="Source/Assets/Animations/OneShots/Wheel/Wheel_0008.png"/>
+              <FILE id="B4G0JC" name="Wheel_0009.png" compile="0" resource="1" file="Source/Assets/Animations/OneShots/Wheel/Wheel_0009.png"/>
+              <FILE id="ONrBDH" name="Wheel_0010.png" compile="0" resource="1" file="Source/Assets/Animations/OneShots/Wheel/Wheel_0010.png"/>
+              <FILE id="VO7bGz" name="Wheel_0011.png" compile="0" resource="1" file="Source/Assets/Animations/OneShots/Wheel/Wheel_0011.png"/>
+              <FILE id="xYefse" name="Wheel_0012.png" compile="0" resource="1" file="Source/Assets/Animations/OneShots/Wheel/Wheel_0012.png"/>
+              <FILE id="z3K6Nb" name="Wheel_0013.png" compile="0" resource="1" file="Source/Assets/Animations/OneShots/Wheel/Wheel_0013.png"/>
+              <FILE id="LIG9Rz" name="Wheel_0014.png" compile="0" resource="1" file="Source/Assets/Animations/OneShots/Wheel/Wheel_0014.png"/>
+              <FILE id="nSOhsQ" name="Wheel_0015.png" compile="0" resource="1" file="Source/Assets/Animations/OneShots/Wheel/Wheel_0015.png"/>
+              <FILE id="N86RHZ" name="Wheel_0016.png" compile="0" resource="1" file="Source/Assets/Animations/OneShots/Wheel/Wheel_0016.png"/>
+              <FILE id="LII0WH" name="Wheel_0017.png" compile="0" resource="1" file="Source/Assets/Animations/OneShots/Wheel/Wheel_0017.png"/>
+              <FILE id="OZqqj9" name="Wheel_0018.png" compile="0" resource="1" file="Source/Assets/Animations/OneShots/Wheel/Wheel_0018.png"/>
+              <FILE id="PL7Mpy" name="Wheel_0019.png" compile="0" resource="1" file="Source/Assets/Animations/OneShots/Wheel/Wheel_0019.png"/>
+              <FILE id="g2Z9F7" name="Wheel_0020.png" compile="0" resource="1" file="Source/Assets/Animations/OneShots/Wheel/Wheel_0020.png"/>
+              <FILE id="LzqjCZ" name="Wheel_0021.png" compile="0" resource="1" file="Source/Assets/Animations/OneShots/Wheel/Wheel_0021.png"/>
+              <FILE id="CUYHH1" name="Wheel_0022.png" compile="0" resource="1" file="Source/Assets/Animations/OneShots/Wheel/Wheel_0022.png"/>
+              <FILE id="R8PGzx" name="Wheel_0023.png" compile="0" resource="1" file="Source/Assets/Animations/OneShots/Wheel/Wheel_0023.png"/>
+              <FILE id="on9VnY" name="Wheel_0024.png" compile="0" resource="1" file="Source/Assets/Animations/OneShots/Wheel/Wheel_0024.png"/>
+              <FILE id="XcTB5z" name="Wheel_0025.png" compile="0" resource="1" file="Source/Assets/Animations/OneShots/Wheel/Wheel_0025.png"/>
+              <FILE id="pFb9rQ" name="Wheel_0026.png" compile="0" resource="1" file="Source/Assets/Animations/OneShots/Wheel/Wheel_0026.png"/>
+              <FILE id="httW9P" name="Wheel_0027.png" compile="0" resource="1" file="Source/Assets/Animations/OneShots/Wheel/Wheel_0027.png"/>
+              <FILE id="Jzf3qW" name="Wheel_0028.png" compile="0" resource="1" file="Source/Assets/Animations/OneShots/Wheel/Wheel_0028.png"/>
+              <FILE id="KdVxta" name="Wheel_0029.png" compile="0" resource="1" file="Source/Assets/Animations/OneShots/Wheel/Wheel_0029.png"/>
+              <FILE id="Nkr6u0" name="Wheel_0030.png" compile="0" resource="1" file="Source/Assets/Animations/OneShots/Wheel/Wheel_0030.png"/>
+              <FILE id="ulBBYe" name="Wheel_0031.png" compile="0" resource="1" file="Source/Assets/Animations/OneShots/Wheel/Wheel_0031.png"/>
+              <FILE id="Nifp6e" name="Wheel_0032.png" compile="0" resource="1" file="Source/Assets/Animations/OneShots/Wheel/Wheel_0032.png"/>
+              <FILE id="Mqcz5c" name="Wheel_0033.png" compile="0" resource="1" file="Source/Assets/Animations/OneShots/Wheel/Wheel_0033.png"/>
+              <FILE id="XiweuA" name="Wheel_0034.png" compile="0" resource="1" file="Source/Assets/Animations/OneShots/Wheel/Wheel_0034.png"/>
+              <FILE id="sLvWfp" name="Wheel_0035.png" compile="0" resource="1" file="Source/Assets/Animations/OneShots/Wheel/Wheel_0035.png"/>
+              <FILE id="kB9C5a" name="Wheel_0036.png" compile="0" resource="1" file="Source/Assets/Animations/OneShots/Wheel/Wheel_0036.png"/>
+              <FILE id="dcUyaa" name="Wheel_0037.png" compile="0" resource="1" file="Source/Assets/Animations/OneShots/Wheel/Wheel_0037.png"/>
+              <FILE id="zPCJdM" name="Wheel_0038.png" compile="0" resource="1" file="Source/Assets/Animations/OneShots/Wheel/Wheel_0038.png"/>
+              <FILE id="UIZukc" name="Wheel_0039.png" compile="0" resource="1" file="Source/Assets/Animations/OneShots/Wheel/Wheel_0039.png"/>
+              <FILE id="TDc3CE" name="Wheel_0040.png" compile="0" resource="1" file="Source/Assets/Animations/OneShots/Wheel/Wheel_0040.png"/>
+              <FILE id="J1v9Ij" name="Wheel_0041.png" compile="0" resource="1" file="Source/Assets/Animations/OneShots/Wheel/Wheel_0041.png"/>
+              <FILE id="jqadbM" name="Wheel_0042.png" compile="0" resource="1" file="Source/Assets/Animations/OneShots/Wheel/Wheel_0042.png"/>
+              <FILE id="APE3NG" name="Wheel_0043.png" compile="0" resource="1" file="Source/Assets/Animations/OneShots/Wheel/Wheel_0043.png"/>
+              <FILE id="YQILyV" name="Wheel_0044.png" compile="0" resource="1" file="Source/Assets/Animations/OneShots/Wheel/Wheel_0044.png"/>
+              <FILE id="Q9B7fy" name="Wheel_0045.png" compile="0" resource="1" file="Source/Assets/Animations/OneShots/Wheel/Wheel_0045.png"/>
+              <FILE id="kSj4LL" name="Wheel_0046.png" compile="0" resource="1" file="Source/Assets/Animations/OneShots/Wheel/Wheel_0046.png"/>
+              <FILE id="mhNhlW" name="Wheel_0047.png" compile="0" resource="1" file="Source/Assets/Animations/OneShots/Wheel/Wheel_0047.png"/>
+              <FILE id="YJDIag" name="Wheel_0048.png" compile="0" resource="1" file="Source/Assets/Animations/OneShots/Wheel/Wheel_0048.png"/>
+              <FILE id="UnjLEM" name="Wheel_0049.png" compile="0" resource="1" file="Source/Assets/Animations/OneShots/Wheel/Wheel_0049.png"/>
+              <FILE id="R3MyKk" name="Wheel_0050.png" compile="0" resource="1" file="Source/Assets/Animations/OneShots/Wheel/Wheel_0050.png"/>
+              <FILE id="nnmrOA" name="Wheel_0051.png" compile="0" resource="1" file="Source/Assets/Animations/OneShots/Wheel/Wheel_0051.png"/>
+              <FILE id="Tzkw3k" name="Wheel_0052.png" compile="0" resource="1" file="Source/Assets/Animations/OneShots/Wheel/Wheel_0052.png"/>
+              <FILE id="eUjjI7" name="Wheel_0053.png" compile="0" resource="1" file="Source/Assets/Animations/OneShots/Wheel/Wheel_0053.png"/>
+              <FILE id="doJIeq" name="Wheel_0054.png" compile="0" resource="1" file="Source/Assets/Animations/OneShots/Wheel/Wheel_0054.png"/>
+              <FILE id="FOR73W" name="Wheel_0055.png" compile="0" resource="1" file="Source/Assets/Animations/OneShots/Wheel/Wheel_0055.png"/>
+              <FILE id="qtVEdg" name="Wheel_0056.png" compile="0" resource="1" file="Source/Assets/Animations/OneShots/Wheel/Wheel_0056.png"/>
+              <FILE id="t7neq9" name="Wheel_0057.png" compile="0" resource="1" file="Source/Assets/Animations/OneShots/Wheel/Wheel_0057.png"/>
+              <FILE id="ohBjce" name="Wheel_0058.png" compile="0" resource="1" file="Source/Assets/Animations/OneShots/Wheel/Wheel_0058.png"/>
+              <FILE id="d1dmtl" name="Wheel_0059.png" compile="0" resource="1" file="Source/Assets/Animations/OneShots/Wheel/Wheel_0059.png"/>
+              <FILE id="quftnQ" name="Wheel_0060.png" compile="0" resource="1" file="Source/Assets/Animations/OneShots/Wheel/Wheel_0060.png"/>
+              <FILE id="T1tBu7" name="Wheel_0061.png" compile="0" resource="1" file="Source/Assets/Animations/OneShots/Wheel/Wheel_0061.png"/>
+              <FILE id="hleccE" name="Wheel_0062.png" compile="0" resource="1" file="Source/Assets/Animations/OneShots/Wheel/Wheel_0062.png"/>
+              <FILE id="JVoiA9" name="Wheel_0063.png" compile="0" resource="1" file="Source/Assets/Animations/OneShots/Wheel/Wheel_0063.png"/>
+              <FILE id="ESaIDY" name="Wheel_0064.png" compile="0" resource="1" file="Source/Assets/Animations/OneShots/Wheel/Wheel_0064.png"/>
+              <FILE id="dZSP3H" name="Wheel_0065.png" compile="0" resource="1" file="Source/Assets/Animations/OneShots/Wheel/Wheel_0065.png"/>
+              <FILE id="JDkvuZ" name="Wheel_0066.png" compile="0" resource="1" file="Source/Assets/Animations/OneShots/Wheel/Wheel_0066.png"/>
+              <FILE id="OfWPTP" name="Wheel_0067.png" compile="0" resource="1" file="Source/Assets/Animations/OneShots/Wheel/Wheel_0067.png"/>
+              <FILE id="QVuACS" name="Wheel_0068.png" compile="0" resource="1" file="Source/Assets/Animations/OneShots/Wheel/Wheel_0068.png"/>
+              <FILE id="PQjw03" name="Wheel_0069.png" compile="0" resource="1" file="Source/Assets/Animations/OneShots/Wheel/Wheel_0069.png"/>
+              <FILE id="bgD1t7" name="Wheel_0070.png" compile="0" resource="1" file="Source/Assets/Animations/OneShots/Wheel/Wheel_0070.png"/>
+              <FILE id="AgDzcs" name="Wheel_0071.png" compile="0" resource="1" file="Source/Assets/Animations/OneShots/Wheel/Wheel_0071.png"/>
+              <FILE id="ZAf1un" name="Wheel_0072.png" compile="0" resource="1" file="Source/Assets/Animations/OneShots/Wheel/Wheel_0072.png"/>
+              <FILE id="kN1xaM" name="Wheel_0073.png" compile="0" resource="1" file="Source/Assets/Animations/OneShots/Wheel/Wheel_0073.png"/>
+              <FILE id="HQY24n" name="Wheel_0074.png" compile="0" resource="1" file="Source/Assets/Animations/OneShots/Wheel/Wheel_0074.png"/>
+              <FILE id="aBvvzj" name="Wheel_0075.png" compile="0" resource="1" file="Source/Assets/Animations/OneShots/Wheel/Wheel_0075.png"/>
+              <FILE id="dztZHR" name="Wheel_0076.png" compile="0" resource="1" file="Source/Assets/Animations/OneShots/Wheel/Wheel_0076.png"/>
+              <FILE id="jfkRbv" name="Wheel_0077.png" compile="0" resource="1" file="Source/Assets/Animations/OneShots/Wheel/Wheel_0077.png"/>
+              <FILE id="fv8ETv" name="Wheel_0078.png" compile="0" resource="1" file="Source/Assets/Animations/OneShots/Wheel/Wheel_0078.png"/>
+              <FILE id="Eoo4g8" name="Wheel_0079.png" compile="0" resource="1" file="Source/Assets/Animations/OneShots/Wheel/Wheel_0079.png"/>
+              <FILE id="fDfwxk" name="Wheel_0080.png" compile="0" resource="1" file="Source/Assets/Animations/OneShots/Wheel/Wheel_0080.png"/>
+              <FILE id="cbGvzh" name="Wheel_0081.png" compile="0" resource="1" file="Source/Assets/Animations/OneShots/Wheel/Wheel_0081.png"/>
+              <FILE id="WuLsec" name="Wheel_0082.png" compile="0" resource="1" file="Source/Assets/Animations/OneShots/Wheel/Wheel_0082.png"/>
+              <FILE id="XTb7nl" name="Wheel_0083.png" compile="0" resource="1" file="Source/Assets/Animations/OneShots/Wheel/Wheel_0083.png"/>
+              <FILE id="IONeM7" name="Wheel_0084.png" compile="0" resource="1" file="Source/Assets/Animations/OneShots/Wheel/Wheel_0084.png"/>
+              <FILE id="u4Ja9X" name="Wheel_0085.png" compile="0" resource="1" file="Source/Assets/Animations/OneShots/Wheel/Wheel_0085.png"/>
+              <FILE id="lTulVm" name="Wheel_0086.png" compile="0" resource="1" file="Source/Assets/Animations/OneShots/Wheel/Wheel_0086.png"/>
+              <FILE id="cQ8TFy" name="Wheel_0087.png" compile="0" resource="1" file="Source/Assets/Animations/OneShots/Wheel/Wheel_0087.png"/>
+              <FILE id="xCDkyY" name="Wheel_0088.png" compile="0" resource="1" file="Source/Assets/Animations/OneShots/Wheel/Wheel_0088.png"/>
+              <FILE id="RTgpv8" name="Wheel_0089.png" compile="0" resource="1" file="Source/Assets/Animations/OneShots/Wheel/Wheel_0089.png"/>
+              <FILE id="p6FDfx" name="Wheel_0090.png" compile="0" resource="1" file="Source/Assets/Animations/OneShots/Wheel/Wheel_0090.png"/>
+              <FILE id="QrYVHb" name="Wheel_0091.png" compile="0" resource="1" file="Source/Assets/Animations/OneShots/Wheel/Wheel_0091.png"/>
+              <FILE id="lcN7Dc" name="Wheel_0092.png" compile="0" resource="1" file="Source/Assets/Animations/OneShots/Wheel/Wheel_0092.png"/>
+              <FILE id="W2en9n" name="Wheel_0093.png" compile="0" resource="1" file="Source/Assets/Animations/OneShots/Wheel/Wheel_0093.png"/>
+              <FILE id="GiDiG6" name="Wheel_0094.png" compile="0" resource="1" file="Source/Assets/Animations/OneShots/Wheel/Wheel_0094.png"/>
+              <FILE id="nLpUEf" name="Wheel_0095.png" compile="0" resource="1" file="Source/Assets/Animations/OneShots/Wheel/Wheel_0095.png"/>
+              <FILE id="K6XLJJ" name="Wheel_0096.png" compile="0" resource="1" file="Source/Assets/Animations/OneShots/Wheel/Wheel_0096.png"/>
+              <FILE id="gzGfma" name="Wheel_0097.png" compile="0" resource="1" file="Source/Assets/Animations/OneShots/Wheel/Wheel_0097.png"/>
+              <FILE id="HKNH5w" name="Wheel_0098.png" compile="0" resource="1" file="Source/Assets/Animations/OneShots/Wheel/Wheel_0098.png"/>
+              <FILE id="SUy5V8" name="Wheel_0099.png" compile="0" resource="1" file="Source/Assets/Animations/OneShots/Wheel/Wheel_0099.png"/>
+              <FILE id="Gmlx66" name="Wheel_0100.png" compile="0" resource="1" file="Source/Assets/Animations/OneShots/Wheel/Wheel_0100.png"/>
+              <FILE id="JqTiZX" name="Wheel_0101.png" compile="0" resource="1" file="Source/Assets/Animations/OneShots/Wheel/Wheel_0101.png"/>
+              <FILE id="H4R6JH" name="Wheel_0102.png" compile="0" resource="1" file="Source/Assets/Animations/OneShots/Wheel/Wheel_0102.png"/>
+              <FILE id="mliNwP" name="Wheel_0103.png" compile="0" resource="1" file="Source/Assets/Animations/OneShots/Wheel/Wheel_0103.png"/>
+              <FILE id="BHwByJ" name="Wheel_0104.png" compile="0" resource="1" file="Source/Assets/Animations/OneShots/Wheel/Wheel_0104.png"/>
+              <FILE id="XXY2Xu" name="Wheel_0105.png" compile="0" resource="1" file="Source/Assets/Animations/OneShots/Wheel/Wheel_0105.png"/>
+              <FILE id="kDZIMc" name="Wheel_0106.png" compile="0" resource="1" file="Source/Assets/Animations/OneShots/Wheel/Wheel_0106.png"/>
+              <FILE id="bR2J1M" name="Wheel_0107.png" compile="0" resource="1" file="Source/Assets/Animations/OneShots/Wheel/Wheel_0107.png"/>
+              <FILE id="rN4ML3" name="Wheel_0108.png" compile="0" resource="1" file="Source/Assets/Animations/OneShots/Wheel/Wheel_0108.png"/>
+              <FILE id="jdFdpR" name="Wheel_0109.png" compile="0" resource="1" file="Source/Assets/Animations/OneShots/Wheel/Wheel_0109.png"/>
+              <FILE id="DYvsC6" name="Wheel_0110.png" compile="0" resource="1" file="Source/Assets/Animations/OneShots/Wheel/Wheel_0110.png"/>
+              <FILE id="fvRXxZ" name="Wheel_0111.png" compile="0" resource="1" file="Source/Assets/Animations/OneShots/Wheel/Wheel_0111.png"/>
+              <FILE id="E25Tx7" name="Wheel_0112.png" compile="0" resource="1" file="Source/Assets/Animations/OneShots/Wheel/Wheel_0112.png"/>
+              <FILE id="ilQzYz" name="Wheel_0113.png" compile="0" resource="1" file="Source/Assets/Animations/OneShots/Wheel/Wheel_0113.png"/>
+              <FILE id="HTOFIU" name="Wheel_0114.png" compile="0" resource="1" file="Source/Assets/Animations/OneShots/Wheel/Wheel_0114.png"/>
+              <FILE id="NklCNd" name="Wheel_0115.png" compile="0" resource="1" file="Source/Assets/Animations/OneShots/Wheel/Wheel_0115.png"/>
+              <FILE id="JXmRW2" name="Wheel_0116.png" compile="0" resource="1" file="Source/Assets/Animations/OneShots/Wheel/Wheel_0116.png"/>
+              <FILE id="ryJgDN" name="Wheel_0117.png" compile="0" resource="1" file="Source/Assets/Animations/OneShots/Wheel/Wheel_0117.png"/>
+              <FILE id="ogpIab" name="Wheel_0118.png" compile="0" resource="1" file="Source/Assets/Animations/OneShots/Wheel/Wheel_0118.png"/>
+              <FILE id="Oia4Fx" name="Wheel_0119.png" compile="0" resource="1" file="Source/Assets/Animations/OneShots/Wheel/Wheel_0119.png"/>
+              <FILE id="vY6Mzn" name="Wheel_0120.png" compile="0" resource="1" file="Source/Assets/Animations/OneShots/Wheel/Wheel_0120.png"/>
+              <FILE id="eixIVj" name="Wheel_0121.png" compile="0" resource="1" file="Source/Assets/Animations/OneShots/Wheel/Wheel_0121.png"/>
+              <FILE id="B4bZrr" name="Wheel_0122.png" compile="0" resource="1" file="Source/Assets/Animations/OneShots/Wheel/Wheel_0122.png"/>
+              <FILE id="sbmwJm" name="Wheel_0123.png" compile="0" resource="1" file="Source/Assets/Animations/OneShots/Wheel/Wheel_0123.png"/>
+              <FILE id="DDfY9c" name="Wheel_0124.png" compile="0" resource="1" file="Source/Assets/Animations/OneShots/Wheel/Wheel_0124.png"/>
+              <FILE id="hGHC94" name="Wheel_0125.png" compile="0" resource="1" file="Source/Assets/Animations/OneShots/Wheel/Wheel_0125.png"/>
+              <FILE id="dPhCxn" name="Wheel_0126.png" compile="0" resource="1" file="Source/Assets/Animations/OneShots/Wheel/Wheel_0126.png"/>
+              <FILE id="B1p9RJ" name="Wheel_0127.png" compile="0" resource="1" file="Source/Assets/Animations/OneShots/Wheel/Wheel_0127.png"/>
+              <FILE id="Dwt6eR" name="Wheel_0128.png" compile="0" resource="1" file="Source/Assets/Animations/OneShots/Wheel/Wheel_0128.png"/>
+            </GROUP>
+          </GROUP>
+          <GROUP id="{691D9DA1-9A23-F6DC-05C8-82F85A817D1C}" name="Stripes">
+            <FILE id="WtKPjR" name="Knob_big.png" compile="0" resource="1" file="Source/Assets/Animations/Stripes/Knob_big.png"/>
+            <FILE id="AJgJhD" name="Knob_middle.png" compile="0" resource="1" file="Source/Assets/Animations/Stripes/Knob_middle.png"/>
+            <FILE id="ZXb4yr" name="Knob_small.png" compile="0" resource="1" file="Source/Assets/Animations/Stripes/Knob_small.png"/>
+            <FILE id="efjeOO" name="Slider_horizontal.png" compile="0" resource="1"
+                  file="Source/Assets/Animations/Stripes/Slider_horizontal.png"/>
+            <FILE id="npBGS1" name="Slider_vertical.png" compile="0" resource="1"
+                  file="Source/Assets/Animations/Stripes/Slider_vertical.png"/>
+            <FILE id="hPfoW6" name="vu_meter.png" compile="0" resource="1" file="Source/Assets/Animations/Stripes/vu_meter.png"/>
+            <FILE id="ST7uS8" name="Wheel.png" compile="0" resource="1" file="Source/Assets/Animations/Stripes/Wheel.png"/>
+          </GROUP>
+        </GROUP>
+        <GROUP id="{DBC400E3-BBFE-F08D-E15B-F17E70913269}" name="Backgrounds">
+          <FILE id="kUsRMh" name="Articulations.png" compile="0" resource="1"
+                file="Source/Assets/Backgrounds/Articulations.png"/>
+          <FILE id="FbRmqP" name="bg_1.png" compile="0" resource="1" file="Source/Assets/Backgrounds/bg_1.png"/>
+          <FILE id="zwAtMh" name="bg_2.png" compile="0" resource="1" file="Source/Assets/Backgrounds/bg_2.png"/>
+          <FILE id="fDVZCe" name="bg_3-4.png" compile="0" resource="1" file="Source/Assets/Backgrounds/bg_3-4.png"/>
+          <FILE id="oYf2RM" name="Menu.png" compile="0" resource="1" file="Source/Assets/Backgrounds/Menu.png"/>
+          <FILE id="JsBojq" name="Menu_screen.png" compile="0" resource="1" file="Source/Assets/Backgrounds/Menu_screen.png"/>
+        </GROUP>
+        <GROUP id="{710D1207-09E1-584D-BEAF-618A0842DB85}" name="Buttons">
+          <FILE id="OvlLFD" name="Button_dis_1.png" compile="0" resource="1"
+                file="Source/Assets/Buttons/Button_dis_1.png"/>
+          <FILE id="IFGnPa" name="Button_dis_2.png" compile="0" resource="1"
+                file="Source/Assets/Buttons/Button_dis_2.png"/>
+          <FILE id="qt7g0M" name="Button_dis_3.png" compile="0" resource="1"
+                file="Source/Assets/Buttons/Button_dis_3.png"/>
+          <FILE id="oZLcDq" name="Button_en_1.png" compile="0" resource="1" file="Source/Assets/Buttons/Button_en_1.png"/>
+          <FILE id="eFFyiU" name="Button_en_2.png" compile="0" resource="1" file="Source/Assets/Buttons/Button_en_2.png"/>
+          <FILE id="qRmXnL" name="Button_en_3.png" compile="0" resource="1" file="Source/Assets/Buttons/Button_en_3.png"/>
+          <FILE id="GlLfbx" name="Button_power_1_blue.png" compile="0" resource="1"
+                file="Source/Assets/Buttons/Button_power_1_blue.png"/>
+          <FILE id="JR0n7M" name="Button_power_1_grey.png" compile="0" resource="1"
+                file="Source/Assets/Buttons/Button_power_1_grey.png"/>
+          <FILE id="mr6DOc" name="Button_power_2_blue.png" compile="0" resource="1"
+                file="Source/Assets/Buttons/Button_power_2_blue.png"/>
+          <FILE id="bqQDk5" name="Button_power_2_grey.png" compile="0" resource="1"
+                file="Source/Assets/Buttons/Button_power_2_grey.png"/>
+          <FILE id="g2LAwQ" name="Button_power_3_blue.png" compile="0" resource="1"
+                file="Source/Assets/Buttons/Button_power_3_blue.png"/>
+          <FILE id="mRPciF" name="Button_power_3_grey.png" compile="0" resource="1"
+                file="Source/Assets/Buttons/Button_power_3_grey.png"/>
+          <FILE id="IewIVX" name="Pad_dis.png" compile="0" resource="1" file="Source/Assets/Buttons/Pad_dis.png"/>
+          <FILE id="fHEPcb" name="Pad_en.png" compile="0" resource="1" file="Source/Assets/Buttons/Pad_en.png"/>
+          <FILE id="fKNOJ0" name="Switch_dis.png" compile="0" resource="1" file="Source/Assets/Buttons/Switch_dis.png"/>
+          <FILE id="s5TomA" name="Switch_en.png" compile="0" resource="1" file="Source/Assets/Buttons/Switch_en.png"/>
+        </GROUP>
+        <GROUP id="{74BE485E-F788-263B-05EF-119A59DF559E}" name="Scales">
+          <FILE id="ZwumeA" name="eq_scale_2.png" compile="0" resource="1" file="Source/Assets/Scales/eq_scale_2.png"/>
+          <FILE id="S9ah8T" name="Knob_big_scale_blue.png" compile="0" resource="1"
+                file="Source/Assets/Scales/Knob_big_scale_blue.png"/>
+          <FILE id="bqqZuz" name="Knob_big_scale_grey.png" compile="0" resource="1"
+                file="Source/Assets/Scales/Knob_big_scale_grey.png"/>
+          <FILE id="VvIFt7" name="Knob_middle_scale_blue.png" compile="0" resource="1"
+                file="Source/Assets/Scales/Knob_middle_scale_blue.png"/>
+          <FILE id="ZyEYne" name="Knob_middle_scale_grey.png" compile="0" resource="1"
+                file="Source/Assets/Scales/Knob_middle_scale_grey.png"/>
+          <FILE id="ghFQUS" name="Knob_small_scale_blue.png" compile="0" resource="1"
+                file="Source/Assets/Scales/Knob_small_scale_blue.png"/>
+          <FILE id="fl7Hz4" name="Knob_small_scale_grey.png" compile="0" resource="1"
+                file="Source/Assets/Scales/Knob_small_scale_grey.png"/>
+          <FILE id="aSSfY5" name="Slider_horisontal_scale_blue.png" compile="0"
+                resource="1" file="Source/Assets/Scales/Slider_horisontal_scale_blue.png"/>
+          <FILE id="Uq01u7" name="Slider_horisontal_scale_grey.png" compile="0"
+                resource="1" file="Source/Assets/Scales/Slider_horisontal_scale_grey.png"/>
+          <FILE id="ncNDFa" name="Slider_vertical_scale_blue.png" compile="0"
+                resource="1" file="Source/Assets/Scales/Slider_vertical_scale_blue.png"/>
+          <FILE id="ZObKoA" name="Slider_vertical_scale_grey.png" compile="0"
+                resource="1" file="Source/Assets/Scales/Slider_vertical_scale_grey.png"/>
+          <FILE id="sEwWnG" name="Wheel_scale_blue.png" compile="0" resource="1"
+                file="Source/Assets/Scales/Wheel_scale_blue.png"/>
+          <FILE id="CjQx8P" name="Wheel_scale_grey.png" compile="0" resource="1"
+                file="Source/Assets/Scales/Wheel_scale_grey.png"/>
+        </GROUP>
+      </GROUP>
+      <GROUP id="{D3E13CC2-A4F2-9565-317B-3C940DA4C111}" name="GUI">
+        <FILE id="ikbSWo" name="ButtonWidget.h" compile="0" resource="0" file="Source/GUI/ButtonWidget.h"/>
+        <FILE id="naCfrj" name="MainComponent.cpp" compile="1" resource="0"
+              file="Source/GUI/MainComponent.cpp"/>
+        <FILE id="xraba4" name="MainComponent.h" compile="0" resource="0" file="Source/GUI/MainComponent.h"/>
+        <FILE id="y3psGT" name="MeterWidgets.h" compile="0" resource="0" file="Source/GUI/MeterWidgets.h"/>
+        <FILE id="xCCUQY" name="SliderWidgets.h" compile="0" resource="0" file="Source/GUI/SliderWidgets.h"/>
+      </GROUP>
       <GROUP id="{24F4B2C0-1C8D-17D6-4036-E2775BB3E018}" name="DSP">
         <FILE id="hWllMZ" name="CompressorProcessor.cpp" compile="1" resource="0"
               file="Source/DSP/CompressorProcessor.cpp"/>
@@ -17,6 +2052,9 @@
       <FILE id="nGvFAD" name="PluginEditor.cpp" compile="1" resource="0"
             file="Source/PluginEditor.cpp"/>
       <FILE id="JQKPKM" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+      <FILE id="hGVEj9" name="SharedImages.cpp" compile="1" resource="0"
+            file="Source/SharedImages.cpp"/>
+      <FILE id="fTrv65" name="SharedImages.h" compile="0" resource="0" file="Source/SharedImages.h"/>
     </GROUP>
   </MAINGROUP>
   <MODULES>
