@@ -185,6 +185,10 @@ void CompressorPluginAudioProcessor::setStateInformation (const void* data, int 
                 aptvs.replaceState (juce::ValueTree::fromXml (*xmlState));
 }
 
+SharedImages* CompressorPluginAudioProcessor::getSharedImagesPtr() {
+    return m_pSharedImagesPtr;
+}
+
 //==============================================================================
 // This creates new instances of the plugin..
 juce::AudioProcessor* JUCE_CALLTYPE createPluginFilter()

@@ -9,6 +9,7 @@
 #pragma once
 
 #include <JuceHeader.h>
+#include "SharedImages.h"
 #include "./DSP/CompressorProcessor.h"
 
 //==============================================================================
@@ -53,12 +54,15 @@ public:
     //==============================================================================
     void getStateInformation (juce::MemoryBlock& destData) override;
     void setStateInformation (const void* data, int sizeInBytes) override;
+    
+    SharedImages* getSharedImagesPtr();
 
     juce::AudioProcessorValueTreeState aptvs;
     
     Compressor comp = Compressor();
     
 private:
+    juce::SharedResourcePointer<SharedImages>     m_pSharedImagesPtr;
     
     juce::AudioProcessorValueTreeState::ParameterLayout createParameters();
     
