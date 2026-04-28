@@ -48,7 +48,7 @@ MainComponent::MainComponent(CompressorPluginAudioProcessor& p) :
     attackTimeSliderAttatchment = std::make_unique<juce::AudioProcessorValueTreeState::SliderAttachment>(audioProcessor.aptvs,"ATTACK",attackTimeSlider);
     
     releaseTimeSlider.setSliderStyle(juce::Slider::SliderStyle::RotaryHorizontalVerticalDrag);
-    releaseTimeSlider.setTextBoxStyle(juce::Slider::TextBoxAbove,true,50,25);
+    releaseTimeSlider.setTextBoxStyle(juce::Slider::TextBoxBelow,true,50,25);
     releaseTimeSlider.onValueChange = [this] () {audioProcessor.comp.updateAlphaR(); };
     releaseTimeSliderLabel.setText(audioProcessor.aptvs.getParameter("RELEASE")->getName(7),juce::dontSendNotification);
     releaseTimeSliderLabel.setJustificationType(juce::Justification::centredTop);
@@ -57,15 +57,12 @@ MainComponent::MainComponent(CompressorPluginAudioProcessor& p) :
     releaseTimeSliderAttatchment = std::make_unique<juce::AudioProcessorValueTreeState::SliderAttachment>(audioProcessor.aptvs,"RELEASE",releaseTimeSlider);
     
     gainSlider.setSliderStyle(juce::Slider::SliderStyle::RotaryHorizontalVerticalDrag);
-    gainSlider.setTextBoxStyle(juce::Slider::TextBoxAbove,true,50,25);
+    gainSlider.setTextBoxStyle(juce::Slider::TextBoxBelow,true,50,25);
     gainSliderLabel.setText(audioProcessor.aptvs.getParameter("GAIN")->getName(4),juce::dontSendNotification);
     gainSliderLabel.setJustificationType(juce::Justification::centredTop);
     gainSliderLabel.attachToComponent(&gainSlider, false);
     addAndMakeVisible(gainSlider);
     gainSliderAttatchment = std::make_unique<juce::AudioProcessorValueTreeState::SliderAttachment>(audioProcessor.aptvs,"GAIN",gainSlider);
-    
-    
-//    addAndMakeVisible(VUMeter);
     
 }
 
@@ -85,10 +82,10 @@ void MainComponent::paint (juce::Graphics& g)
 void MainComponent::resized()
 {
     
-    thresholdSlider.setBounds(50,50,100,150);
-    ratioSlider.setBounds(250,50,100,150);
-    attackTimeSlider.setBounds(450,50,100,150);
-    releaseTimeSlider.setBounds(150,300,100,150);
-    gainSlider.setBounds(350,300,100,150);
+    thresholdSlider.setBounds(50,100,100,150);
+    ratioSlider.setBounds(250,100,100,150);
+    attackTimeSlider.setBounds(450,100,100,150);
+    releaseTimeSlider.setBounds(150,325,100,150);
+    gainSlider.setBounds(350,325,100,150);
     
 }
