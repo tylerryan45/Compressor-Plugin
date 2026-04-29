@@ -21,7 +21,7 @@ MainComponent::MainComponent(CompressorPluginAudioProcessor& p) :
     releaseTimeSlider       (m_pSharedImages),
     gainSlider              (m_pSharedImages),
     viewerChannels          (audioProcessor.getTotalNumInputChannels()),
-    waveViewer              (viewerChannels)
+    waveViewer              (viewerChannels,p)
 {
     thresholdSlider.setSliderStyle(juce::Slider::SliderStyle::RotaryHorizontalVerticalDrag);
     thresholdSlider.setTextBoxStyle(juce::Slider::TextBoxBelow,false,labelWidth,labelHeight);
@@ -66,6 +66,7 @@ MainComponent::MainComponent(CompressorPluginAudioProcessor& p) :
     gainSliderAttatchment = std::make_unique<juce::AudioProcessorValueTreeState::SliderAttachment>(audioProcessor.aptvs,"GAIN",gainSlider);
     
     waveViewer.setColours(juce::Colours::black, juce::Colours::white);
+    waveViewer.setRepaintRate(60);
     addAndMakeVisible(waveViewer);
     
     zoomSlider.setRange(0,1);
@@ -73,6 +74,7 @@ MainComponent::MainComponent(CompressorPluginAudioProcessor& p) :
     zoomSlider.setSliderStyle(juce::Slider::SliderStyle::LinearHorizontal);
     zoomSlider.setTextBoxStyle(juce::Slider::NoTextBox,true,0,0);
     zoomSlider.setColour(juce::Slider::ColourIds::trackColourId, findColour(juce::Slider::ColourIds::backgroundColourId));
+    zoomSlider.onValueChange = [this] () {waveViewer.setBufferSize(50 + 200 * zoomSlider.getValue());};
     addAndMakeVisible(zoomSlider);
     
 }

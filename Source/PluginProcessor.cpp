@@ -99,6 +99,11 @@ void CompressorPluginAudioProcessor::prepareToPlay (double sampleRate, int sampl
     std::atomic<float>* releaseTime = aptvs.getRawParameterValue("RELEASE");
     std::atomic<float>* makeUpGain = aptvs.getRawParameterValue("GAIN");
     
+    inputBuffer.clear();
+    outputBuffer.clear();
+    inputBuffer.setSize(0,samplesPerBlock);
+    outputBuffer.setSize(0,samplesPerBlock);
+    
     comp.prepareToPlay(sampleRate, threshold, ratio, attackTime, releaseTime, makeUpGain);
 }
 
@@ -139,6 +144,8 @@ void CompressorPluginAudioProcessor::processBlock (juce::AudioBuffer<float>& buf
     juce::ScopedNoDenormals noDenormals;
     auto totalNumInputChannels  = getTotalNumInputChannels();
     auto totalNumOutputChannels = getTotalNumOutputChannels();
+    
+    inputBuffer.makeCopyOf(buffer,true);
 
     for (auto i = totalNumInputChannels; i < totalNumOutputChannels; ++i)
         buffer.clear (i, 0, buffer.getNumSamples());
@@ -156,6 +163,8 @@ void CompressorPluginAudioProcessor::processBlock (juce::AudioBuffer<float>& buf
         comp.processBuffer(channelData, channel, buffer.getNumSamples());
         
     }
+    
+    outputBuffer.makeCopyOf(buffer);
 }
 
 //==============================================================================

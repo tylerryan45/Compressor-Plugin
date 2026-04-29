@@ -61,6 +61,9 @@ public:
     
     Compressor comp = Compressor();
     
+    juce::AudioBuffer<float> inputBuffer;
+    juce::AudioBuffer<float> outputBuffer;
+    
 private:
     juce::SharedResourcePointer<SharedImages>     m_pSharedImagesPtr;
     

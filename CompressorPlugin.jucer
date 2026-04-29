@@ -2038,6 +2038,10 @@
         <FILE id="xraba4" name="MainComponent.h" compile="0" resource="0" file="Source/GUI/MainComponent.h"/>
         <FILE id="y3psGT" name="MeterWidgets.h" compile="0" resource="0" file="Source/GUI/MeterWidgets.h"/>
         <FILE id="xCCUQY" name="SliderWidgets.h" compile="0" resource="0" file="Source/GUI/SliderWidgets.h"/>
+        <FILE id="KWibfo" name="WaveformViewer.cpp" compile="1" resource="0"
+              file="Source/GUI/WaveformViewer.cpp"/>
+        <FILE id="sJeg7W" name="WaveformViewer.h" compile="0" resource="0"
+              file="Source/GUI/WaveformViewer.h"/>
       </GROUP>
       <GROUP id="{24F4B2C0-1C8D-17D6-4036-E2775BB3E018}" name="DSP">
         <FILE id="hWllMZ" name="CompressorProcessor.cpp" compile="1" resource="0"

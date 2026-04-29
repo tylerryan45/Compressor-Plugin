@@ -14,6 +14,7 @@
 #include "../PluginProcessor.h"
 #include "../SharedImages.h"
 #include "SliderWidgets.h"
+#include "WaveformViewer.h"
 
 //==============================================================================
 /*
@@ -53,7 +54,7 @@ private:
     
     juce::Slider zoomSlider;
     int viewerChannels;
-    juce::AudioVisualiserComponent waveViewer;
+    juce::WaveformViewer waveViewer;
     
     int knobSizeWidth;
     int knobSizeHeight;
