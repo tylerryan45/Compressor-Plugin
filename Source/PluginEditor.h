@@ -27,6 +27,8 @@ public:
 
 private:
     
+    int width;
+    int height;
     CompressorPluginAudioProcessor& audioProcessor;
     MainComponent mainComponent;
 

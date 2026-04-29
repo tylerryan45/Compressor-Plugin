@@ -51,6 +51,14 @@ private:
     juce::Label gainSliderLabel;
     std::unique_ptr<juce::AudioProcessorValueTreeState::SliderAttachment> gainSliderAttatchment;
     
+    juce::Slider zoomSlider;
+    int viewerChannels;
+    juce::AudioVisualiserComponent waveViewer;
+    
+    int knobSizeWidth;
+    int knobSizeHeight;
+    int labelWidth = 50;
+    int labelHeight = 30;
     
     
     JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (MainComponent)
