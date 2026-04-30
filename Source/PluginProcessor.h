@@ -64,6 +64,8 @@ public:
     juce::AudioBuffer<float> inputBuffer;
     juce::AudioBuffer<float> outputBuffer;
     
+    float Fs;
+    
 private:
     juce::SharedResourcePointer<SharedImages>     m_pSharedImagesPtr;
     

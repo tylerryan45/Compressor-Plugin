@@ -104,6 +104,8 @@ void CompressorPluginAudioProcessor::prepareToPlay (double sampleRate, int sampl
     inputBuffer.setSize(0,samplesPerBlock);
     outputBuffer.setSize(0,samplesPerBlock);
     
+    Fs = sampleRate;
+    
     comp.prepareToPlay(sampleRate, threshold, ratio, attackTime, releaseTime, makeUpGain);
 }
 

@@ -15,6 +15,7 @@
 #include "../SharedImages.h"
 #include "SliderWidgets.h"
 #include "WaveformViewer.h"
+#include "MeterWidgets.h"
 
 //==============================================================================
 /*
@@ -55,6 +56,12 @@ private:
     juce::Slider zoomSlider;
     int viewerChannels;
     juce::WaveformViewer waveViewer;
+    
+    VerticalGradientMeter inputL;
+    VerticalGradientMeter inputR;
+    
+    VerticalGradientMeter outputL;
+    VerticalGradientMeter outputR;
     
     int knobSizeWidth;
     int knobSizeHeight;

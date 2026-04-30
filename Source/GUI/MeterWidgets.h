@@ -14,69 +14,62 @@
 #include "../PluginProcessor.h"
 
 
-//class VUMeter : public juce::Component, private juce::Timer
-//{
-//public:
-//    VUMeter(CompressorPluginAudioProcessor& p) :
-//        audioProcessor      (p),
-//        m_pSharedImages     (audioProcessor.getSharedImagesPtr()),
-//        vuMeter             (m_pSharedImages->getVUMeter())
-//    {
-//        
-//        startTimerHz(30);
-//        
-//    }
-//    
-//    void paint(juce::Graphics& g) override
-//    {
-//        // Intended size frame x frameHeight
-//        int frameStartY = index * frameHeight;
-//        
-//        if(frameStartY > maxFramePosition)
-//            frameStartY = maxFramePosition;
-//            
-//        if (frameStartY < 0)
-//            frameStartY = 0;
-//        
-//        g.drawImage(vuMeter, 0, 0, getWidth(), getHeight(), 0, frameStartY, frameWidth, frameHeight);
-//        
-//    }
-//    
-//    void timerCallback() override
-//    {
-//        
-//        updateMeter();
-//        
-//        repaint();
-//    }
-//    
-//    void updateMeter()
-//    {
-//        float linLevel = audioProcessor.getOutputLevel(true);
-//        float dbLevel  = juce::Decibels::gainToDecibels(linLevel, -100.f);
-//        
-//        index = floor(juce::jmap(dbLevel, -100.f, 0.f, 0.f, (float) (numFrames-1)));
-//        
-//        
-//    }
-//    
-//private:
-//    CompressorPluginAudioProcessor& audioProcessor;
-//    SharedImages* m_pSharedImages;
-//    
-//    juce::Image& vuMeter;
-//    
-//    int frame = 0;
-//    
-//    int numFrames = 129;
-//    
-//    int frameHeight = 280;
-//    
-//    int frameWidth = 536;
-//    
-//    int index = 0;
-//    
-//    int maxFramePosition = (int) (frameHeight * numFrames);
-//    
-//};
+class VerticalGradientMeter : public juce::Component, private juce::Timer
+{
+public:
+    VerticalGradientMeter(juce::AudioBuffer<float>& buffer, int channel, float Fs) :
+        channel             (channel),
+        Fs                  (Fs),
+        buffer              (buffer)
+    {
+        rmsLevel.reset(Fs, 0.05);
+        rmsLevel.setCurrentAndTargetValue(-100.0);
+        startTimerHz(30);
+    }
+    
+    void paint(juce::Graphics& g) override
+    {
+        auto bounds = getLocalBounds().toFloat().reduced(3.f);
+
+        g.setColour(juce::Colours::black);
+        g.fillRect(bounds);
+
+        g.setGradientFill(gradient);
+        int scaledY = 0;
+        if (rmsLevel.getCurrentValue() >= -60.f) {
+            scaledY = juce::jmap(rmsLevel.getCurrentValue(), -60.f, 6.f, 0.f, static_cast<float>(getHeight()));
+        }
+        g.fillRect(bounds.removeFromBottom(scaledY));
+    }
+    
+    void resized() override {
+        const auto bounds = getLocalBounds().toFloat();
+        gradient = juce::ColourGradient{ juce::Colours::green, bounds.getBottomLeft(), juce::Colours::red, bounds.getTopLeft(), false };
+        gradient.addColour(0.5, juce::Colours::yellow);
+    }
+    
+    void timerCallback() override
+    {
+        updateMeter();
+        repaint();
+    }
+    
+    void updateMeter()
+    {
+        rmsLevel.skip(buffer.getNumSamples());
+        float value = juce::Decibels::gainToDecibels(buffer.getRMSLevel(channel,0, buffer.getNumSamples()));
+        if (value < rmsLevel.getCurrentValue())
+        {
+            rmsLevel.setTargetValue(value);
+        } else {
+            rmsLevel.setCurrentAndTargetValue(value);
+        }
+    }
+private:
+    int channel;
+    float Fs;
+    juce::AudioBuffer<float>& buffer;
+    juce::LinearSmoothedValue<float> rmsLevel;
+    juce::ColourGradient gradient{};
+};
 

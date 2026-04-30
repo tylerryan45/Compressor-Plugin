@@ -21,7 +21,11 @@ MainComponent::MainComponent(CompressorPluginAudioProcessor& p) :
     releaseTimeSlider       (m_pSharedImages),
     gainSlider              (m_pSharedImages),
     viewerChannels          (audioProcessor.getTotalNumInputChannels()),
-    waveViewer              (viewerChannels,p)
+    waveViewer              (viewerChannels,p),
+    inputL(audioProcessor.inputBuffer, 0, p.Fs),
+    inputR(audioProcessor.inputBuffer, 1, p.Fs),
+    outputL(audioProcessor.outputBuffer, 0, p.Fs),
+    outputR(audioProcessor.outputBuffer, 1, p.Fs)
 {
     thresholdSlider.setSliderStyle(juce::Slider::SliderStyle::RotaryHorizontalVerticalDrag);
     thresholdSlider.setTextBoxStyle(juce::Slider::TextBoxBelow,false,labelWidth,labelHeight);
@@ -77,6 +81,11 @@ MainComponent::MainComponent(CompressorPluginAudioProcessor& p) :
     zoomSlider.onValueChange = [this] () {waveViewer.setBufferSize(50 + 200 * zoomSlider.getValue());};
     addAndMakeVisible(zoomSlider);
     
+    addAndMakeVisible(inputL);
+    addAndMakeVisible(inputR);
+    addAndMakeVisible(outputL);
+    addAndMakeVisible(outputR);
+    
 }
 
 MainComponent::~MainComponent()
@@ -106,5 +115,10 @@ void MainComponent::resized()
     waveViewer.setBounds((getWidth()*1/6),(getHeight()*2/5),(getWidth()*4/6),(getHeight()*1/2));
     zoomSlider.setBounds(waveViewer.getX(),waveViewer.getY() + waveViewer.getHeight(),waveViewer.getWidth(),getHeight()*0.05);
     
+    int meterWidth = getWidth()/28;
+    inputL.setBounds((getWidth()*1/12)-meterWidth,waveViewer.getY(),meterWidth,waveViewer.getHeight());
+    inputR.setBounds((getWidth()*1/12),waveViewer.getY(),meterWidth,waveViewer.getHeight());
     
+    outputL.setBounds((getWidth()*11/12)-meterWidth,waveViewer.getY(),meterWidth,waveViewer.getHeight());
+    outputR.setBounds((getWidth()*11/12),waveViewer.getY(),meterWidth,waveViewer.getHeight());
 }
