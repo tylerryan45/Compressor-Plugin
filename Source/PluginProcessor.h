@@ -55,6 +55,8 @@ public:
     void getStateInformation (juce::MemoryBlock& destData) override;
     void setStateInformation (const void* data, int sizeInBytes) override;
     
+    std::vector<float> getGainReduction();
+    
     SharedImages* getSharedImagesPtr();
 
     juce::AudioProcessorValueTreeState aptvs;

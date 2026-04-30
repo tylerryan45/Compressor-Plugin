@@ -200,6 +200,11 @@ SharedImages* CompressorPluginAudioProcessor::getSharedImagesPtr() {
     return m_pSharedImagesPtr;
 }
 
+std::vector<float> CompressorPluginAudioProcessor::getGainReduction()
+{
+    return comp.getGainReduction();
+}
+
 //==============================================================================
 // This creates new instances of the plugin..
 juce::AudioProcessor* JUCE_CALLTYPE createPluginFilter()

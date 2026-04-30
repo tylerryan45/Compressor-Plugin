@@ -14,6 +14,36 @@
 #include "../PluginProcessor.h"
 
 
+class GainReductionMeter : public juce::Slider, private juce::Timer
+{
+public:
+    GainReductionMeter(CompressorPluginAudioProcessor& p) :
+    audioProcessor (p)
+    {
+        startTimerHz(30);
+    }
+    
+    void timerCallback() override
+    {
+        std::vector<float> gainReduction = audioProcessor.getGainReduction();
+        float value = -120;
+        for (int i = 0; i < gainReduction.size() - 1; i++)
+        {
+            if (value < gainReduction[i])
+            {
+                value = gainReduction[i];
+            }
+        }
+        setValue(getMaximum() - 20*log10(abs(value)));
+    }
+    
+    
+    
+private:
+    CompressorPluginAudioProcessor&   audioProcessor;
+};
+
+
 class VerticalGradientMeter : public juce::Component, private juce::Timer
 {
 public:

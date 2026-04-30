@@ -10,11 +10,13 @@
 
 #pragma once
 
-#include<string>
+#include <string>
+#include <vector>
 
 class Compressor {
     public:
     
+    std::vector<float> getGainReduction();
     void updateAlphaA();
     void updateAlphaR();
     void prepareToPlay(float Fs, std::atomic<float>* threshold, std::atomic<float>* ratio, std::atomic<float>* attackTime, std::atomic<float>* releaseTime, std::atomic<float>* makeUpGain);
@@ -33,6 +35,6 @@ class Compressor {
     std::atomic<float>* releaseTime; //seconds
     float alphaR = 0.f;
     std::atomic<float>* makeUpGain;
-    float gainSmoothPrev[2] = {0};
+    std::vector<float> gainSmoothPrev = {0.f,0.f};
     
 };

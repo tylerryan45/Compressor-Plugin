@@ -63,10 +63,7 @@ private:
     VerticalGradientMeter outputL;
     VerticalGradientMeter outputR;
     
-    int knobSizeWidth;
-    int knobSizeHeight;
-    int labelWidth = 50;
-    int labelHeight = 30;
+    GainReductionMeter gainReduction;
     
     
     JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (MainComponent)

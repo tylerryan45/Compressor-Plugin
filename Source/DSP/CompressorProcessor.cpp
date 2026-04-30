@@ -22,6 +22,10 @@ void Compressor::prepareToPlay(float Fs, std::atomic<float>* threshold, std::ato
     this->makeUpGain = makeUpGain;
 }
 
+std::vector<float> Compressor::getGainReduction(){
+    return gainSmoothPrev;
+}
+
 void Compressor::updateAlphaA(){
     alphaA = exp(-log(9)/(Fs * attackTime->load()));
 }

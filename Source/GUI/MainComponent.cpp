@@ -22,11 +22,15 @@ MainComponent::MainComponent(CompressorPluginAudioProcessor& p) :
     gainSlider              (m_pSharedImages),
     viewerChannels          (audioProcessor.getTotalNumInputChannels()),
     waveViewer              (viewerChannels,p),
-    inputL(audioProcessor.inputBuffer, 0, p.Fs),
-    inputR(audioProcessor.inputBuffer, 1, p.Fs),
-    outputL(audioProcessor.outputBuffer, 0, p.Fs),
-    outputR(audioProcessor.outputBuffer, 1, p.Fs)
+    inputL                  (audioProcessor.inputBuffer, 0, p.Fs),
+    inputR                  (audioProcessor.inputBuffer, 1, p.Fs),
+    outputL                 (audioProcessor.outputBuffer, 0, p.Fs),
+    outputR                 (audioProcessor.outputBuffer, 1, p.Fs),
+    gainReduction           (p)
 {
+    int labelWidth = 50;
+    int labelHeight = 30;
+    
     thresholdSlider.setSliderStyle(juce::Slider::SliderStyle::RotaryHorizontalVerticalDrag);
     thresholdSlider.setTextBoxStyle(juce::Slider::TextBoxBelow,false,labelWidth,labelHeight);
     thresholdSliderLabel.setText(audioProcessor.aptvs.getParameter("THRESHOLD")->getName(9),juce::dontSendNotification);
@@ -86,6 +90,15 @@ MainComponent::MainComponent(CompressorPluginAudioProcessor& p) :
     addAndMakeVisible(outputL);
     addAndMakeVisible(outputR);
     
+    gainReduction.setRange(0.f,30.f);
+    gainReduction.setValue(0.f);
+    gainReduction.setSliderStyle(juce::Slider::SliderStyle::LinearVertical);
+    gainReduction.setTextBoxStyle(juce::Slider::NoTextBox, true, 0, 0);
+    gainReduction.setColour(juce::Slider::ColourIds::backgroundColourId, juce::Colours::orange);
+    gainReduction.setColour(juce::Slider::ColourIds::trackColourId, juce::Colours::black);
+    gainReduction.setColour(juce::Slider::ColourIds::thumbColourId, juce::Colours::transparentBlack);
+    addAndMakeVisible(gainReduction);
+    
 }
 
 MainComponent::~MainComponent()
@@ -103,8 +116,8 @@ void MainComponent::paint (juce::Graphics& g)
 
 void MainComponent::resized()
 {
-    knobSizeWidth = 49 * getWidth()* 0.0041; // 49 is the width of the aspect ratio, and the 0.0041 is a scalar to fit the knobs into the plugin window
-    knobSizeHeight = 46 * getHeight() * 0.0041; // 46 is the height of the aspect ratio, and the 0.0041 is a scalar to fit the knobs into the plugin window
+    float knobSizeWidth = 49 * getWidth()* 0.0041; // 49 is the width of the aspect ratio, and the 0.0041 is a scalar to fit the knobs into the plugin window
+    float knobSizeHeight = 46 * getHeight() * 0.0041; // 46 is the height of the aspect ratio, and the 0.0041 is a scalar to fit the knobs into the plugin window
     
     thresholdSlider.setBounds((getWidth()*0),(getHeight()*1/5),knobSizeWidth,knobSizeHeight);
     ratioSlider.setBounds(thresholdSlider.getX()+thresholdSlider.getWidth(),thresholdSlider.getY(),thresholdSlider.getWidth(),thresholdSlider.getHeight());
@@ -121,4 +134,7 @@ void MainComponent::resized()
     
     outputL.setBounds((getWidth()*11/12)-meterWidth,waveViewer.getY(),meterWidth,waveViewer.getHeight());
     outputR.setBounds((getWidth()*11/12),waveViewer.getY(),meterWidth,waveViewer.getHeight());
+    
+    meterWidth = getWidth()/56;
+    gainReduction.setBounds(waveViewer.getX()+waveViewer.getWidth(), waveViewer.getY(),meterWidth,waveViewer.getHeight());
 }
