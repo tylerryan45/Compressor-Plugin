@@ -28,8 +28,6 @@ MainComponent::MainComponent(CompressorPluginAudioProcessor& p) :
     outputR                 (audioProcessor.outputBuffer, 1, p.Fs),
     gainReduction           (p)
 {
-    int labelWidth = 50;
-    int labelHeight = 30;
     
     thresholdSlider.setSliderStyle(juce::Slider::SliderStyle::RotaryHorizontalVerticalDrag);
     thresholdSlider.setTextBoxStyle(juce::Slider::TextBoxBelow,false,labelWidth,labelHeight);
@@ -84,11 +82,19 @@ MainComponent::MainComponent(CompressorPluginAudioProcessor& p) :
     zoomSlider.setColour(juce::Slider::ColourIds::trackColourId, findColour(juce::Slider::ColourIds::backgroundColourId));
     zoomSlider.onValueChange = [this] () {waveViewer.setBufferSize(50 + 200 * zoomSlider.getValue());};
     addAndMakeVisible(zoomSlider);
+    zoomSliderLabel.setText("Zoom",juce::dontSendNotification);
+    addAndMakeVisible(zoomSliderLabel);
+    
     
     addAndMakeVisible(inputL);
     addAndMakeVisible(inputR);
+    inputLabel.setText("In",juce::dontSendNotification);
+    addAndMakeVisible(inputLabel);
+    
     addAndMakeVisible(outputL);
     addAndMakeVisible(outputR);
+    outputLabel.setText("Out", juce::dontSendNotification);
+    addAndMakeVisible(outputLabel);
     
     gainReduction.setRange(0.f,30.f);
     gainReduction.setValue(0.f);
@@ -116,6 +122,8 @@ void MainComponent::paint (juce::Graphics& g)
 
 void MainComponent::resized()
 {
+    labelWidth = getWidth()/14;
+    labelHeight = getHeight()*3/49;
     float knobSizeWidth = 49 * getWidth()* 0.0041; // 49 is the width of the aspect ratio, and the 0.0041 is a scalar to fit the knobs into the plugin window
     float knobSizeHeight = 46 * getHeight() * 0.0041; // 46 is the height of the aspect ratio, and the 0.0041 is a scalar to fit the knobs into the plugin window
     
@@ -126,14 +134,25 @@ void MainComponent::resized()
     gainSlider.setBounds(releaseTimeSlider.getX()+releaseTimeSlider.getWidth(),releaseTimeSlider.getY(),releaseTimeSlider.getWidth(),releaseTimeSlider.getHeight());
 
     waveViewer.setBounds((getWidth()*1/6),(getHeight()*2/5),(getWidth()*4/6),(getHeight()*1/2));
-    zoomSlider.setBounds(waveViewer.getX(),waveViewer.getY() + waveViewer.getHeight(),waveViewer.getWidth(),getHeight()*0.05);
     
-    int meterWidth = getWidth()/28;
+    juce::Font textFont = juce::Font(juce::FontOptions(getWidth()*15/700)); //15pt
+    zoomSlider.setBounds(waveViewer.getX(),waveViewer.getY() + waveViewer.getHeight(),waveViewer.getWidth(),getHeight()*0.05);
+    zoomSliderLabel.setBounds(zoomSlider.getX() + zoomSlider.getWidth()*0.45,zoomSlider.getY() + zoomSlider.getHeight(),labelWidth,labelHeight*3/4);
+    zoomSliderLabel.setFont(juce::Font(textFont));
+    
+    float meterWidth = getWidth()/28;
+    textFont = juce::Font(juce::FontOptions(getWidth()*11/350)); //22pt
     inputL.setBounds((getWidth()*1/12)-meterWidth,waveViewer.getY(),meterWidth,waveViewer.getHeight());
     inputR.setBounds((getWidth()*1/12),waveViewer.getY(),meterWidth,waveViewer.getHeight());
+    inputLabel.setBounds(inputL.getX(),inputL.getY()+inputL.getHeight(),meterWidth*2,zoomSlider.getHeight());
+    inputLabel.setFont(textFont);
+    inputLabel.setJustificationType(juce::Justification::horizontallyCentred);
     
     outputL.setBounds((getWidth()*11/12)-meterWidth,waveViewer.getY(),meterWidth,waveViewer.getHeight());
     outputR.setBounds((getWidth()*11/12),waveViewer.getY(),meterWidth,waveViewer.getHeight());
+    outputLabel.setBounds(outputL.getX(),inputR.getY()+inputR.getHeight(),meterWidth*2,zoomSlider.getHeight());
+    outputLabel.setFont(textFont);
+    outputLabel.setJustificationType(juce::Justification::horizontallyCentred);
     
     meterWidth = getWidth()/56;
     gainReduction.setBounds(waveViewer.getX()+waveViewer.getWidth(), waveViewer.getY(),meterWidth,waveViewer.getHeight());
