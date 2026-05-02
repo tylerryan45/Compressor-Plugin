@@ -73,6 +73,7 @@ MainComponent::MainComponent(CompressorPluginAudioProcessor& p) :
     
     waveViewer.setColours(juce::Colours::black, juce::Colours::white);
     waveViewer.setRepaintRate(60);
+    waveViewer.setSamplesPerBlock(100);
     addAndMakeVisible(waveViewer);
     
     zoomSlider.setRange(0,1);
